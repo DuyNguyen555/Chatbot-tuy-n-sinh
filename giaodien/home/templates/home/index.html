@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot Trường Đại Học Kiến Trúc Đà Nẵng</title>
+  <link rel="stylesheet" href="static/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- Nút mở menu -->
+<button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+
+<!-- Sidebar Menu ẩn -->
+<div class="sidebar" id="sidebar">
+  <h3>Thông tin trường</h3>
+  <ul>
+    <li><strong>Đại học Kiến Trúc Đà Nẵng</strong></li>
+    <li>Hotline: 0236.2210030 - 2210031 - 2210032</li>
+    <li>Email: <a href="mailto:infor@dau.edu.vn">infor@dau.edu.vn</a></li>
+    <li>Website: <a href="https://dau.edu.vn" target="_blank">dau.edu.vn</a></li>
+    <li>Tuyển sinh: <a href="https://tuyensinh.dau.edu.vn" target="_blank">tuyensinh.dau.edu.vn</a></li>
+    <li>Địa chỉ: 566 Núi Thành, Hòa Cường Nam, Hải Châu, Đà Nẵng</li>
+  </ul>
+
+  <h3>Ngành học</h3>
+  <ul>
+    <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-kien-truc-c16204.html" target="_blank">🏛️ Kiến Trúc</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-quy-hoach-vung-va-do-thi-c16980.html" target="_blank">🗺️ Quy hoạch vùng và đô thị</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-thiet-ke-noi-that-c16214.html" target="_blank">🛋️ Thiết kế nội thất</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-thiet-ke-do-hoa-c16682.html" target="_blank">🎨 Thiết kế đồ họa</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-cong-nghe-thong-tin-c16368.html" target="_blank">💻 Công nghệ thông tin</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-quan-tri-kinh-doanh-c16284.html" target="_blank">📈 Quản trị kinh doanh</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-ky-thuat-xay-dung-c18556.html" target="_blank">🏗️ Kỹ thuật xây dựng</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-ky-thuat-xay-dung-cong-trinh-giao-thong-c16226.html" target="_blank">🚧 Kỹ thuật công trình giao thông</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-ky-thuat-co-so-ha-tang-c16232.html" target="_blank">🏞️ Kỹ thuật cơ sở hạ tầng</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-kien-truc-c16204.html" target="_blank">🧱 Quản lý xây dựng</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-cong-nghe-ky-thuat-dien-dien-tu-c18506.html" target="_blank">⚡ Công nghệ kỹ thuật điện, điện tử</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-ke-toan-c16518.html" target="_blank">📊 Kế Toán</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-tai-chinh-ngan-hang-c16516.html" target="_blank">💰 Tài chính - Ngân hàng</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-quan-tri-dich-vu-du-lich-va-lu-hanh-c16846.html" target="_blank">🧳 Quản trị dịch vụ du lịch & lữ hành</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-quan-tri-khach-san-c16852.html" target="_blank">🏨 Quản trị khách sạn</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-logistics-va-quan-ly-chuoi-cung-ung-c15990.html" target="_blank">🚛 Logistics và Quản lý chuỗi cung ứng</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-ngon-ngu-anh-c16592.html" target="_blank">🇬🇧 Ngôn ngữ Anh</a></li>
+  <li><a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-ngon-ngu-trung-quoc-c16626.html" target="_blank">🇨🇳 Ngôn ngữ Trung Quốc</a></li>
+  </ul>
+</div>
+
+<!-- Khung Chatbot -->
+<div class="chat-container">
+  <div class="chat-header">🎓 Chatbot Trường Đại Học Kiến Trúc Đà Nẵng</div>
+  <div class="chat-box" id="chat-box">
+    <img src="https://inkythuatso.com/uploads/images/2021/12/logo-truong-dai-hoc-kien-truc-da-nang-inkythuatso-01-25-15-05-26.jpg"
+         alt="Logo Trường" class="chat-background-logo">
+    <div class="chat-message bot">Chào bạn! Tôi có thể giúp gì cho bạn hôm nay?</div>
+  </div>
+  <div class="input-area">
+    <input type="text" id="user-input" placeholder="Nhập câu hỏi của bạn..." onkeypress="handleKeyPress(event)">
+    <button onclick="sendMessage()">Gửi</button>
+  </div>
+</div>
+
+<script src="static/script.js"></script>
+</body>
+</html>

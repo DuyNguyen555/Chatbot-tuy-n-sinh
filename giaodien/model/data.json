@@ -1,0 +1,2596 @@
+{
+  "intents": [
+    {
+      "tag": "chao_hoi",
+      "patterns": [
+        "xin chào",
+        "chào bạn"
+      ],
+      "responses": [
+        "Chào bạn! Tôi là chatbot của Trường Đại học Kiến trúc Đà Nẵng (DAU). Tôi có thể giúp gì cho bạn?",
+        "Xin chào! Rất vui được hỗ trợ bạn về thông tin của Trường Đại học Kiến trúc Đà Nẵng.",
+        "Hi! Bạn cần tìm hiểu gì về DAU?"
+      ]
+    },
+    {
+      "tag": "tam_biet",
+      "patterns": [
+        "tạm biệt",
+        "bye"
+      ],
+      "responses": [
+        "Tạm biệt! Hẹn gặp lại bạn.",
+        "Rất vui được hỗ trợ bạn. Tạm biệt!",
+        "Bye! Nếu cần thêm thông tin, đừng ngần ngại hỏi nhé."
+      ]
+    },
+    {
+      "tag": "cam_on",
+      "patterns": [
+        "cảm ơn",
+        "thanks"
+      ],
+      "responses": [
+        "Rất vui được giúp đỡ!",
+        "Không có gì! Bạn cần hỗ trợ gì thêm không?",
+        "Rất hân hạnh!"
+      ]
+    },
+    {
+      "tag": "gioi_thieu_truong",
+      "patterns": [
+        "giới thiệu trường",
+        "trường tên là gì?"
+      ],
+      "responses": [
+        "Tôi là chatbot của Trường Đại học Kiến trúc Đà Nẵng (DAU). Mã trường là KTD. Bạn có thể xem thêm thông tin tổng quan tại website chính thức: https://dau.edu.vn",
+        "Đây là Trường Đại học Kiến trúc Đà Nẵng, tên tiếng Anh là Danang Architecture University, viết tắt là DAU. Mã trường tuyển sinh là KTD."
+      ]
+    },
+    {
+      "tag": "so_luong_nganh",
+      "patterns": [
+        "trường có bao nhiêu ngành?",
+        "đào tạo mấy ngành?"
+      ],
+      "responses": [
+        "Năm 2024, Trường Đại học Kiến trúc Đà Nẵng dự kiến tuyển sinh 22 ngành/chuyên ngành học. Bạn có muốn biết danh sách các ngành không?",
+        "Hiện tại, trường đang đào tạo khoảng 22 ngành và chuyên ngành. Tổng chỉ tiêu tuyển sinh năm 2024 là 2900."
+      ]
+    },
+    {
+      "tag": "danh_sach_nganh",
+      "patterns": [
+        "kể tên các ngành",
+        "trường có những ngành nào?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng đào tạo các ngành như: Kiến trúc, Quy hoạch vùng và đô thị, Thiết kế nội thất, Thiết kế đồ họa, Kỹ thuật xây dựng, Quản lý xây dựng, Kỹ thuật cơ sở hạ tầng, Công nghệ thông tin, Kỹ thuật Điện - Điện tử, Quản trị kinh doanh, Marketing, Kế toán, Tài chính - Ngân hàng, Ngôn ngữ Anh, Ngôn ngữ Nhật, Ngôn ngữ Hàn Quốc... Bạn có thể xem chi tiết tại trang tuyển sinh: https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "dia_chi",
+      "patterns": [
+        "địa chỉ trường?",
+        "trường ở đâu?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng tọa lạc tại số 566 Núi Thành, Phường Hòa Cường Nam, Quận Hải Châu, Thành phố Đà Nẵng. Bạn có thể tìm trên Google Maps với từ khóa 'Đại học Kiến trúc Đà Nẵng'."
+      ]
+    },
+    {
+      "tag": "hoc_phi",
+      "patterns": [
+        "học phí bao nhiêu?",
+        "mức học phí?"
+      ],
+      "responses": [
+        "Học phí của Trường Đại học Kiến trúc Đà Nẵng thay đổi tùy theo ngành và số tín chỉ đăng ký mỗi học kỳ. Thông tin học phí chi tiết thường được công bố vào đầu mỗi năm học trên trang tuyển sinh hoặc cổng thông tin sinh viên. Bạn có thể tham khảo mức học phí các năm trước tại: https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "phuong_thuc_xet_tuyen",
+      "patterns": [
+        "phương thức xét tuyển?",
+        "xét tuyển thế nào?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng thường xét tuyển theo nhiều phương thức như: Xét điểm thi tốt nghiệp THPT, Xét học bạ THPT, Xét tuyển thẳng theo quy chế của Bộ GD&ĐT, và có thể có phương thức xét tuyển riêng (ví dụ: thi năng khiếu với các ngành đặc thù như Kiến trúc, Quy hoạch, Nội thất, Đồ họa). Thông tin chi tiết và chỉ tiêu từng phương thức được công bố trong đề án tuyển sinh hàng năm tại https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "website trường?",
+        "link trang web?"
+      ],
+      "responses": [
+        "Website chính thức của Trường Đại học Kiến trúc Đà Nẵng là: https://dau.edu.vn/",
+        "Bạn có thể truy cập trang web của trường tại: https://dau.edu.vn/"
+      ]
+    },
+    {
+      "tag": "thong_tin_lien_he",
+      "patterns": [
+        "thông tin liên hệ?",
+        "số điện thoại trường?"
+      ],
+      "responses": [
+        "Bạn có thể liên hệ Trường Đại học Kiến trúc Đà Nẵng qua:\n- Địa chỉ: 566 Núi Thành, P. Hòa Cường Nam, Q. Hải Châu, TP. Đà Nẵng\n- Điện thoại: (0236) 2210 030 - 2210 031\n- Hotline tư vấn tuyển sinh: 0816.988.288 / 0776.572.717\n- Email: tuyensinh@dau.edu.vn\n- Website: https://dau.edu.vn/\n- Trang tuyển sinh: https://tuyensinh.dau.edu.vn/"
+      ]
+    },
+    {
+      "tag": "ky_tuc_xa",
+      "patterns": [
+        "trường có ký túc xá không?",
+        "thông tin KTX?"
+      ],
+      "responses": [
+        "Hiện tại, Trường Đại học Kiến trúc Đà Nẵng chưa có ký túc xá riêng trong khuôn viên trường. Tuy nhiên, trường có thể hỗ trợ giới thiệu các khu nhà trọ, phòng trọ uy tín gần trường cho sinh viên có nhu cầu. Bạn nên liên hệ Phòng Công tác Sinh viên để được tư vấn cụ thể nhé."
+      ]
+    },
+    {
+      "tag": "hoc_bong",
+      "patterns": [
+        "chính sách học bổng?",
+        "có học bổng không?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng có nhiều chính sách học bổng khuyến khích học tập dành cho sinh viên có thành tích học tập xuất sắc, sinh viên vượt khó, và các học bổng tài trợ từ doanh nghiệp. Thông tin chi tiết về các loại học bổng và điều kiện xét duyệt thường được cập nhật trên website trường và Phòng Công tác Sinh viên vào đầu mỗi học kỳ/năm học."
+      ]
+    },
+    {
+      "tag": "nganh_kien_truc",
+      "patterns": [
+        "thông tin ngành kiến trúc?",
+        "học kiến trúc DAU?"
+      ],
+      "responses": [
+        "Ngành Kiến trúc là một trong những ngành thế mạnh của DAU. Chương trình đào tạo tập trung vào thiết kế công trình, quy hoạch và các kỹ năng chuyên môn liên quan. Ngành này thường xét tuyển các tổ hợp có môn Vẽ Mỹ thuật/Vẽ Hình họa (thi năng khiếu). Bạn có thể xem chi tiết chương trình đào tạo và thông tin tuyển sinh cụ thể trên trang tuyển sinh của trường: https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "nganh_cntt",
+      "patterns": [
+        "thông tin ngành CNTT?",
+        "học IT ở DAU?"
+      ],
+      "responses": [
+        "Ngành Công nghệ thông tin (IT) tại DAU đào tạo kiến thức về phần mềm, mạng máy tính, an toàn thông tin và các công nghệ mới. Ngành này thường xét tuyển các tổ hợp khối A (Toán, Lý, Hóa) và A1 (Toán, Lý, Anh). Để biết thông tin chi tiết về chương trình học và điểm chuẩn các năm, bạn vui lòng truy cập trang tuyển sinh: https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "nganh_xay_dung",
+      "patterns": [
+        "thông tin ngành xây dựng?",
+        "học xây dựng DAU?"
+      ],
+      "responses": [
+        "DAU có đào tạo các ngành liên quan đến xây dựng như Kỹ thuật xây dựng (chuyên ngành Xây dựng Dân dụng & Công nghiệp), Quản lý xây dựng, Kỹ thuật cơ sở hạ tầng. Các ngành này thường xét tuyển khối A, A1. Bạn xem chi tiết về từng ngành và chuyên ngành tại trang tuyển sinh nhé: https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "nganh_ngon_ngu",
+      "patterns": [
+        "thông tin ngành ngôn ngữ?",
+        "học ngôn ngữ Anh/Nhật/Hàn?"
+      ],
+      "responses": [
+        "Trường có đào tạo các ngành Ngôn ngữ Anh, Ngôn ngữ Nhật, Ngôn ngữ Hàn Quốc. Các ngành này tập trung vào kỹ năng ngôn ngữ và văn hóa. Phương thức xét tuyển và điểm chuẩn bạn có thể tham khảo tại trang tuyển sinh của trường: https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "nganh_kinh_te",
+      "patterns": [
+        "thông tin ngành kinh tế?",
+        "học quản trị kinh doanh?"
+      ],
+      "responses": [
+        "Khối ngành kinh tế tại DAU bao gồm Quản trị kinh doanh (các chuyên ngành Quản trị doanh nghiệp, Marketing & Truyền thông, Quản trị du lịch & lữ hành), Kế toán, Tài chính - Ngân hàng. Thông tin tuyển sinh chi tiết có tại: https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "nganh_thiet_ke",
+      "patterns": [
+        "thông tin ngành thiết kế?",
+        "học thiết kế đồ họa?"
+      ],
+      "responses": [
+        "DAU đào tạo ngành Thiết kế nội thất và Thiết kế đồ họa. Đây là các ngành yêu cầu thi năng khiếu (Vẽ Mỹ thuật/Vẽ Hình họa). Bạn có thể tìm hiểu kỹ hơn về chương trình học và cách thức xét tuyển tại trang tuyển sinh: https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "thoi_gian_dao_tao",
+      "patterns": [
+        "học mấy năm?",
+        "thời gian đào tạo?"
+      ],
+      "responses": [
+        "Thời gian đào tạo hệ đại học chính quy tại Trường Đại học Kiến trúc Đà Nẵng thường là từ 4 đến 5 năm, tùy thuộc vào ngành học. Ví dụ, ngành Kiến trúc thường có thời gian đào tạo là 5 năm, các ngành khác phần lớn là 4 năm. Bạn có thể xem chi tiết trong khung chương trình đào tạo của từng ngành trên website trường."
+      ]
+    },
+    {
+      "tag": "co_so_vat_chat",
+      "patterns": [
+        "cơ sở vật chất?",
+        "điều kiện học tập?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng luôn chú trọng đầu tư cơ sở vật chất hiện đại phục vụ giảng dạy và học tập, bao gồm hệ thống giảng đường, phòng học lý thuyết, phòng thực hành, xưởng thực tập (đặc biệt cho khối ngành Kiến trúc - Mỹ thuật), phòng máy tính, thư viện với nhiều đầu sách và tài liệu tham khảo. Bạn có thể tham quan trực tuyến hoặc tìm hiểu thêm trên website trường."
+      ]
+    },
+    {
+      "tag": "hoat_dong_ngoai_khoa",
+      "patterns": [
+        "hoạt động ngoại khóa?",
+        "có câu lạc bộ nào?"
+      ],
+      "responses": [
+        "Ngoài giờ học, sinh viên DAU có thể tham gia rất nhiều hoạt động ngoại khóa sôi nổi và bổ ích. Trường có nhiều Câu lạc bộ - Đội - Nhóm học thuật, kỹ năng, sở thích, thể thao, văn nghệ, tình nguyện... Các sự kiện lớn như Chào tân sinh viên, Hội thao, cuộc thi chuyên ngành... cũng thường xuyên được tổ chức. Bạn có thể theo dõi trên Fanpage Đoàn Thanh niên - Hội Sinh viên trường để cập nhật."
+      ]
+    },
+    {
+      "tag": "co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm?",
+        "học xong làm gì?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng có mối liên kết chặt chẽ với nhiều doanh nghiệp trong và ngoài khu vực, tạo điều kiện cho sinh viên thực tập và tìm kiếm cơ hội việc làm sau khi tốt nghiệp. Nhà trường thường xuyên tổ chức các ngày hội việc làm, buổi nói chuyện chuyên đề, giới thiệu thông tin tuyển dụng từ các đối tác. Tỷ lệ sinh viên có việc làm sau tốt nghiệp của trường khá cao, đặc biệt ở các ngành thế mạnh."
+      ]
+    },
+    {
+      "tag": "lich_su_hinh_thanh",
+      "patterns": [
+        "lịch sử trường?",
+        "trường thành lập năm nào?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng được thành lập vào ngày 27 tháng 11 năm 2006 theo Quyết định số 270/2006/QĐ-TTg của Thủ tướng Chính phủ. Trải qua quá trình xây dựng và phát triển, trường đã khẳng định được vị thế của mình trong hệ thống giáo dục đại học Việt Nam, đặc biệt trong lĩnh vực Kiến trúc - Xây dựng và các khối ngành liên quan."
+      ]
+    },
+    {
+      "tag": "doi_ngu_giang_vien",
+      "patterns": [
+        "đội ngũ giảng viên?",
+        "chất lượng thầy cô?"
+      ],
+      "responses": [
+        "Đội ngũ giảng viên của Trường Đại học Kiến trúc Đà Nẵng có trình độ chuyên môn cao, giàu kinh nghiệm thực tế và tâm huyết với nghề. Nhiều thầy cô là các Phó Giáo sư, Tiến sĩ, Thạc sĩ được đào tạo bài bản trong và ngoài nước. Nhà trường luôn chú trọng nâng cao chất lượng đội ngũ giảng viên để đáp ứng yêu cầu đào tạo. Bạn có thể xem thông tin giảng viên các Khoa trên website trường: https://dau.edu.vn"
+      ]
+    },
+    {
+      "tag": "lich_hoc_tap",
+      "patterns": [
+        "xem lịch học ở đâu?",
+        "thời khóa biểu?"
+      ],
+      "responses": [
+        "Kế hoạch và lịch học tập chi tiết cho từng học kỳ (bao gồm ngày bắt đầu, ngày kết thúc, lịch thi, lịch nghỉ lễ...) thường được công bố trên Cổng thông tin sinh viên hoặc website của Phòng Đào tạo. Bạn vui lòng truy cập các kênh đó để xem thông tin chính xác nhất cho năm học hiện tại nhé."
+      ]
+    },
+    {
+      "tag": "yeu_cau_tot_nghiep",
+      "patterns": [
+        "điều kiện tốt nghiệp?",
+        "cần gì để ra trường?"
+      ],
+      "responses": [
+        "Để tốt nghiệp, sinh viên cần hoàn thành đủ số tín chỉ theo chương trình đào tạo của ngành, đạt chuẩn đầu ra về kiến thức, kỹ năng, thái độ, và đáp ứng các yêu cầu khác như chứng chỉ ngoại ngữ, tin học, giáo dục thể chất, quốc phòng an ninh theo quy định của trường và Bộ GD&ĐT. Chi tiết về yêu cầu tốt nghiệp cho từng ngành bạn có thể tham khảo trong Quy chế đào tạo hoặc liên hệ Khoa chuyên ngành."
+      ]
+    },
+    {
+      "tag": "chuong_trinh_trao_doi",
+      "patterns": [
+        "chương trình trao đổi sv?",
+        "liên kết quốc tế?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng có các chương trình hợp tác, liên kết và trao đổi sinh viên với một số trường đại học nước ngoài. Thông tin về các chương trình này (nếu có), điều kiện tham gia và học bổng thường được thông báo qua Phòng Hợp tác Quốc tế hoặc trên website trường. Bạn hãy theo dõi để cập nhật nhé."
+      ]
+    },
+    {
+      "tag": "thi_nang_khieu_chi_tiet",
+      "patterns": [
+        "thi năng khiếu thế nào?",
+        "nội dung thi vẽ?"
+      ],
+      "responses": [
+        "Kỳ thi năng khiếu (Vẽ Mỹ thuật/Hình họa) dành cho các ngành Kiến trúc, Quy hoạch, Nội thất, Đồ họa thường bao gồm các phần thi kiểm tra khả năng quan sát, cảm thụ thẩm mỹ và kỹ năng thể hiện. Thông tin chi tiết về cấu trúc đề thi, thời gian, địa điểm, hình thức thi và các yêu cầu cụ thể (như dụng cụ cần mang) sẽ được công bố trong thông báo tuyển sinh hàng năm trên trang https://tuyensinh.dau.edu.vn/. Bạn nên đọc kỹ thông báo để chuẩn bị tốt nhất."
+      ]
+    },
+    {
+      "tag": "ho_so_nhap_hoc",
+      "patterns": [
+        "hồ sơ nhập học gồm gì?",
+        "cần giấy tờ gì nhập học?"
+      ],
+      "responses": [
+        "Khi trúng tuyển, bạn sẽ nhận được Giấy báo trúng tuyển kèm theo danh sách các giấy tờ cần chuẩn bị cho thủ tục nhập học. Thông thường bao gồm: Giấy báo trúng tuyển (bản chính), Học bạ THPT (bản sao công chứng), Giấy chứng nhận tốt nghiệp tạm thời hoặc Bằng tốt nghiệp THPT (bản sao công chứng), Giấy khai sinh (bản sao), Ảnh thẻ, và các giấy tờ ưu tiên (nếu có). Danh sách chính xác sẽ có trong hướng dẫn nhập học được gửi đến thí sinh."
+      ]
+    },
+    {
+      "tag": "han_nop_ho_so",
+      "patterns": [
+        "hạn nộp hồ sơ?",
+        "hạn chót đăng ký?"
+      ],
+      "responses": [
+        "Thời hạn nộp hồ sơ xét tuyển cho từng phương thức (học bạ, điểm thi THPT,...) và thời hạn xác nhận nhập học sau khi trúng tuyển sẽ được quy định cụ thể trong Đề án tuyển sinh và các Thông báo tuyển sinh của trường được đăng tải tại https://tuyensinh.dau.edu.vn/. Bạn cần theo dõi sát các mốc thời gian này để không bỏ lỡ cơ hội."
+      ]
+    },
+    {
+      "tag": "dang_ky_mon_hoc",
+      "patterns": [
+        "đăng ký môn học thế nào?",
+        "cách đăng ký tín chỉ?"
+      ],
+      "responses": [
+        "Sinh viên thực hiện đăng ký môn học cho mỗi học kỳ qua Cổng thông tin sinh viên của trường theo lịch được Phòng Đào tạo thông báo. Bạn cần đăng nhập vào tài khoản sinh viên của mình và chọn các học phần muốn đăng ký trong thời gian quy định. Hướng dẫn chi tiết thường có trên Cổng thông tin hoặc website Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "the_sinh_vien",
+      "patterns": [
+        "làm thẻ sinh viên?",
+        "mất thẻ sinh viên thì sao?"
+      ],
+      "responses": [
+        "Thẻ sinh viên là giấy tờ quan trọng để xác nhận tư cách sinh viên, dùng để ra vào trường, thư viện, phòng thực hành, và tham gia các kỳ thi. Tân sinh viên thường được hướng dẫn làm thẻ khi nhập học. Nếu bị mất hoặc hỏng, bạn cần liên hệ Phòng Công tác Sinh viên để được hướng dẫn thủ tục làm lại thẻ."
+      ]
+    },
+    {
+      "tag": "thu_vien",
+      "patterns": [
+        "thông tin thư viện?",
+        "mượn sách thế nào?"
+      ],
+      "responses": [
+        "Thư viện Trường Đại học Kiến trúc Đà Nẵng cung cấp nguồn tài liệu phong phú bao gồm sách, giáo trình, tạp chí chuyên ngành và tài liệu điện tử. Sinh viên có thể đến đọc tại chỗ hoặc mượn về nhà theo quy định. Giờ mở cửa và nội quy sử dụng thư viện được niêm yết tại thư viện và trên website trường. Bạn cần có thẻ sinh viên để sử dụng các dịch vụ của thư viện."
+      ]
+    },
+    {
+      "tag": "giao_thong_gui_xe",
+      "patterns": [
+        "gửi xe ở đâu?",
+        "phí gửi xe?"
+      ],
+      "responses": [
+        "Trường có khu vực nhà xe dành cho sinh viên gửi xe máy, xe đạp trong khuôn viên trường. Bạn cần tuân thủ quy định về khu vực để xe và có thể phải trả một khoản phí gửi xe nhỏ theo quy định. Thông tin về vị trí nhà xe và quy định cụ thể bạn có thể hỏi bảo vệ hoặc xem thông báo của trường."
+      ]
+    },
+    {
+      "tag": "y_te_sinh_vien",
+      "patterns": [
+        "phòng y tế trường?",
+        "bảo hiểm y tế?"
+      ],
+      "responses": [
+        "Trường có Phòng Y tế để sơ cứu và chăm sóc sức khỏe ban đầu cho sinh viên. Sinh viên cũng được khuyến khích tham gia Bảo hiểm Y tế (BHYT) theo quy định để được hỗ trợ chi phí khám chữa bệnh tại các cơ sở y tế. Khi có vấn đề sức khỏe, bạn có thể đến Phòng Y tế của trường hoặc liên hệ cán bộ phụ trách để được hỗ trợ."
+      ]
+    },
+    {
+      "tag": "cach_nop_hoc_phi",
+      "patterns": [
+        "cách nộp học phí?",
+        "thanh toán học phí thế nào?"
+      ],
+      "responses": [
+        "Học phí thường được nộp theo học kỳ qua các kênh thanh toán do Phòng Kế hoạch - Tài chính của trường thông báo, ví dụ như chuyển khoản ngân hàng vào tài khoản của trường, hoặc qua các ứng dụng/cổng thanh toán trực tuyến (nếu có). Thông tin chi tiết về số tài khoản, nội dung chuyển khoản và thời hạn nộp học phí sẽ được thông báo cụ thể đến sinh viên vào đầu mỗi học kỳ."
+      ]
+    },
+    {
+      "tag": "mien_giam_hoc_phi",
+      "patterns": [
+        "chính sách miễn giảm học phí?",
+        "đối tượng miễn giảm?"
+      ],
+      "responses": [
+        "Nhà nước và nhà trường có các chính sách miễn, giảm học phí cho các đối tượng ưu tiên theo quy định (ví dụ: con thương binh, liệt sĩ, hộ nghèo/cận nghèo, sinh viên khuyết tật...). Để được hưởng chính sách, sinh viên cần chuẩn bị hồ sơ minh chứng và nộp tại Phòng Công tác Sinh viên theo hướng dẫn và thời gian quy định vào đầu mỗi năm học/học kỳ."
+      ]
+    },
+    {
+      "tag": "cuu_sinh_vien",
+      "patterns": [
+        "thông tin cựu sinh viên?",
+        "mạng lưới alumni?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng tự hào về mạng lưới cựu sinh viên đang công tác và thành đạt trên nhiều lĩnh vực. Nhà trường luôn khuyến khích sự kết nối giữa các thế hệ sinh viên. Bạn có thể tìm kiếm thông tin về các hoạt động hoặc hội cựu sinh viên (nếu có) qua website trường hoặc các kênh truyền thông chính thức."
+      ]
+    },
+    {
+      "tag": "quy_che_quy_dinh",
+      "patterns": [
+        "quy chế học vụ?",
+        "quy định sinh viên?"
+      ],
+      "responses": [
+        "Sinh viên cần nắm rõ và tuân thủ các quy chế, quy định của trường về học vụ, thi cử, rèn luyện, công tác sinh viên, khen thưởng và kỷ luật. Các văn bản này thường được đăng tải trên website trường, Cổng thông tin sinh viên hoặc tại Phòng Công tác Sinh viên. Việc hiểu rõ quy định giúp bạn học tập và rèn luyện tốt hơn."
+      ]
+    },
+    {
+      "tag": "chuyen_nganh",
+      "patterns": [
+        "có được chuyển ngành không?",
+        "thủ tục đổi ngành?"
+      ],
+      "responses": [
+        "Việc chuyển ngành trong quá trình học có thể được xem xét nếu sinh viên đáp ứng đủ các điều kiện theo quy chế đào tạo của trường (ví dụ: điểm trung bình, hoàn thành năm học đầu tiên...). Bạn cần liên hệ Phòng Đào tạo để được tư vấn cụ thể về quy trình, điều kiện và các ngành có thể chuyển đến."
+      ]
+    },
+    {
+      "tag": "hoc_vuot_hoc_lai",
+      "patterns": [
+        "học lại thì sao?",
+        "học vượt được không?"
+      ],
+      "responses": [
+        "Sinh viên có thể đăng ký học lại các học phần chưa đạt hoặc học cải thiện điểm đối với các học phần đã đạt điểm D. Việc đăng ký học vượt (học trước các môn của học kỳ sau) cũng có thể được xem xét nếu đủ điều kiện theo quy chế. Bạn cần theo dõi thông báo đăng ký môn học từ Phòng Đào tạo và đăng ký trên Cổng thông tin sinh viên."
+      ]
+    },
+    {
+      "tag": "tam_dung_bao_luu",
+      "patterns": [
+        "xin tạm dừng học?",
+        "bảo lưu kết quả?"
+      ],
+      "responses": [
+        "Sinh viên có thể xin tạm dừng học tập và bảo lưu kết quả vì các lý do chính đáng (ví dụ: sức khỏe, hoàn cảnh gia đình...). Bạn cần làm đơn theo mẫu và nộp tại Phòng Công tác Sinh viên kèm theo các giấy tờ minh chứng liên quan. Thời gian bảo lưu và thủ tục nhập học lại sau bảo lưu được thực hiện theo quy chế."
+      ]
+    },
+    {
+      "tag": "tu_van_tam_ly",
+      "patterns": [
+        "tư vấn tâm lý?",
+        "hỗ trợ khi stress?"
+      ],
+      "responses": [
+        "Nhà trường quan tâm đến sức khỏe tinh thần của sinh viên. Nếu bạn gặp khó khăn về tâm lý, áp lực học tập hay các vấn đề cá nhân, bạn có thể liên hệ Phòng Công tác Sinh viên hoặc các kênh hỗ trợ (nếu có) để được tư vấn, chia sẻ và giúp đỡ kịp thời."
+      ]
+    },
+    {
+      "tag": "wifi_internet",
+      "patterns": [
+        "trường có wifi không?",
+        "kết nối mạng thế nào?"
+      ],
+      "responses": [
+        "Trường có hệ thống mạng Wi-Fi phủ sóng tại các khu vực giảng đường, thư viện và một số không gian chung để phục vụ nhu cầu học tập, nghiên cứu của sinh viên. Thông tin về tên mạng và cách thức đăng nhập (nếu cần) thường được hướng dẫn tại các khu vực có sóng hoặc qua các kênh thông tin nội bộ."
+      ]
+    },
+    {
+      "tag": "he_thong_hoc_tap_online",
+      "patterns": [
+        "hệ thống học online?",
+        "trang web học trực tuyến?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng có thể sử dụng hệ thống quản lý học tập trực tuyến (LMS/E-learning) để hỗ trợ giảng dạy, cung cấp tài liệu, bài giảng, nhận bài tập và thông báo. Sinh viên sẽ được cấp tài khoản và hướng dẫn sử dụng hệ thống này khi nhập học hoặc khi môn học có yêu cầu. Bạn hãy kiểm tra thông tin trên Cổng thông tin sinh viên hoặc từ giảng viên."
+      ]
+    },
+    {
+      "tag": "sinh_vien_quoc_te",
+      "patterns": [
+        "thông tin cho sinh viên quốc tế?",
+        "tuyển sinh du học sinh?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng chào đón sinh viên quốc tế đến học tập. Các quy định về tuyển sinh, thủ tục nhập học, học phí và các chương trình hỗ trợ dành riêng cho sinh viên quốc tế (nếu có) thường do Phòng Hợp tác Quốc tế hoặc Phòng Đào tạo phụ trách. Vui lòng truy cập website trường hoặc liên hệ các phòng ban này để biết thêm chi tiết."
+      ]
+    },
+    {
+      "tag": "vay_von_sinh_vien",
+      "patterns": [
+        "vay vốn sinh viên?",
+        "thủ tục vay tín dụng?"
+      ],
+      "responses": [
+        "Sinh viên thuộc đối tượng được hưởng chính sách tín dụng ưu đãi của Nhà nước có thể làm thủ tục vay vốn tại Ngân hàng Chính sách Xã hội địa phương nơi cư trú. Phòng Công tác Sinh viên của trường sẽ hỗ trợ xác nhận thông tin sinh viên để bạn hoàn thiện hồ sơ vay vốn. Bạn cần chủ động tìm hiểu quy định và làm hồ sơ tại địa phương."
+      ]
+    },
+    {
+      "tag": "khen_thuong_ky_luat",
+      "patterns": [
+        "quy định khen thưởng?",
+        "xử lý kỷ luật?"
+      ],
+      "responses": [
+        "Nhà trường có quy định rõ ràng về các hình thức khen thưởng đối với sinh viên có thành tích xuất sắc trong học tập và rèn luyện, cũng như các hình thức kỷ luật đối với sinh viên vi phạm quy chế, nội quy. Bạn có thể tham khảo chi tiết trong Quy chế Công tác sinh viên hoặc liên hệ Phòng Công tác Sinh viên."
+      ]
+    },
+    {
+      "tag": "the_thao_san_bong",
+      "patterns": [
+        "hoạt động thể thao?",
+        "trường có sân bóng không?"
+      ],
+      "responses": [
+        "Trường khuyến khích các hoạt động thể dục thể thao rèn luyện sức khỏe cho sinh viên. Trường có thể có các sân bãi (như sân bóng đá mini, sân bóng chuyền, cầu lông...) hoặc nhà đa năng phục vụ các hoạt động này. Bạn có thể tham gia các câu lạc bộ thể thao hoặc theo dõi thông tin từ Đoàn Thanh niên - Hội Sinh viên về các giải đấu, phong trào."
+      ]
+    },
+    {
+      "tag": "dong_phuc",
+      "patterns": [
+        "quy định đồng phục?",
+        "có phải mặc đồng phục không?"
+      ],
+      "responses": [
+        "Thông thường, Trường Đại học Kiến trúc Đà Nẵng yêu cầu sinh viên mặc trang phục lịch sự, gọn gàng khi đến trường. Một số trường hợp đặc biệt như học Giáo dục thể chất, Giáo dục quốc phòng hoặc tham dự các sự kiện trang trọng có thể có quy định về đồng phục riêng. Bạn nên tham khảo Sổ tay sinh viên hoặc quy định của trường để biết chi tiết."
+      ]
+    },
+    {
+      "tag": "gop_y_phan_anh",
+      "patterns": [
+        "muốn góp ý thì làm sao?",
+        "phản ánh chất lượng?"
+      ],
+      "responses": [
+        "Nhà trường luôn lắng nghe ý kiến đóng góp, phản ánh của sinh viên về mọi mặt hoạt động. Bạn có thể gửi ý kiến qua các kênh chính thức như: hòm thư góp ý (nếu có), email hoặc gặp trực tiếp các phòng ban chức năng (Phòng Đào tạo, Phòng Công tác Sinh viên, Khoa chuyên ngành...) hoặc thông qua Ban cán sự lớp, Đoàn Thanh niên - Hội Sinh viên."
+      ]
+    },
+    {
+      "tag": "phong_thi_nghiem_xuong",
+      "patterns": [
+        "phòng thí nghiệm?",
+        "xưởng thực hành?"
+      ],
+      "responses": [
+        "Để phục vụ đào tạo các ngành kỹ thuật và mỹ thuật ứng dụng, trường đầu tư các phòng thí nghiệm, xưởng thực hành, studio chuyên ngành (như xưởng kiến trúc, họa thất, phòng lab máy tính, phòng thực hành xây dựng...). Sinh viên sẽ được sử dụng các cơ sở này trong các giờ học thực hành, làm đồ án theo lịch và hướng dẫn của Khoa/Bộ môn."
+      ]
+    },
+    {
+      "tag": "chuyen_doi_tin_chi",
+      "patterns": [
+        "chuyển đổi tín chỉ?",
+        "miễn học phần đã học?"
+      ],
+      "responses": [
+        "Việc xem xét miễn học và công nhận tín chỉ đối với các học phần đã học tại cơ sở đào tạo khác được thực hiện theo quy chế đào tạo của trường. Sinh viên cần nộp bảng điểm và đề cương chi tiết các học phần đã học tại trường cũ cho Phòng Đào tạo để được xem xét. Quyết định cuối cùng thuộc về Hội đồng Khoa học và Đào tạo của trường."
+      ]
+    },
+    {
+      "tag": "thang_diem_gpa",
+      "patterns": [
+        "cách tính điểm GPA?",
+        "thang điểm 4?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng áp dụng thang điểm 10 và thang điểm 4 (GPA) để đánh giá kết quả học tập của sinh viên, theo quy chế của Bộ GD&ĐT. Cách quy đổi giữa hai thang điểm và cách tính điểm trung bình chung tích lũy (GPA) được quy định chi tiết trong Quy chế đào tạo học vụ. Bạn có thể tham khảo văn bản này trên website trường hoặc Cổng thông tin sinh viên."
+      ]
+    },
+    {
+      "tag": "thuc_tap_tot_nghiep",
+      "patterns": [
+        "thực tập tốt nghiệp?",
+        "tìm chỗ thực tập?"
+      ],
+      "responses": [
+        "Kỳ thực tập tốt nghiệp là một phần quan trọng trong chương trình đào tạo của nhiều ngành. Khoa chuyên ngành thường sẽ có hướng dẫn cụ thể về thời gian, yêu cầu, cách tìm đơn vị thực tập và hình thức báo cáo. Nhà trường cũng có thể hỗ trợ giới thiệu các doanh nghiệp đối tác. Bạn nên chủ động liên hệ Khoa/Bộ môn để biết thông tin chi tiết cho ngành học của mình."
+      ]
+    },
+    {
+      "tag": "ho_tro_sinh_vien_khuyet_tat",
+      "patterns": [
+        "hỗ trợ sinh viên khuyết tật?",
+        "chính sách cho người khuyết tật?"
+      ],
+      "responses": [
+        "Nhà trường luôn quan tâm và tạo điều kiện tốt nhất cho sinh viên khuyết tật hòa nhập và học tập. Nếu bạn là sinh viên khuyết tật và cần hỗ trợ về đi lại, học tập hay các vấn đề khác, vui lòng liên hệ Phòng Công tác Sinh viên để được tư vấn và xem xét các chính sách hỗ trợ phù hợp theo quy định."
+      ]
+    },
+    {
+      "tag": "an_ninh_trat_tu",
+      "patterns": [
+        "an ninh trường?",
+        "an toàn trong trường?"
+      ],
+      "responses": [
+        "Trường luôn chú trọng công tác đảm bảo an ninh trật tự trong khuôn viên. Đội ngũ bảo vệ thường xuyên tuần tra, hệ thống camera giám sát được lắp đặt tại các khu vực trọng yếu. Sinh viên cần nâng cao ý thức tự bảo quản tài sản cá nhân và tuân thủ các quy định của trường. Nếu có vấn đề về an ninh, cần báo ngay cho bộ phận bảo vệ hoặc phòng ban chức năng."
+      ]
+    },
+    {
+      "tag": "dich_vu_in_an_photocopy",
+      "patterns": [
+        "chỗ photocopy ở đâu?",
+        "in tài liệu trong trường?"
+      ],
+      "responses": [
+        "Trong khuôn viên trường hoặc khu vực lân cận thường có các dịch vụ photocopy, in ấn tài liệu để phục vụ nhu cầu học tập của sinh viên. Bạn có thể tìm thấy các điểm dịch vụ này tại khu vực căng tin, gần thư viện hoặc hỏi các sinh viên khác để biết vị trí cụ thể."
+      ]
+    },
+    {
+      "tag": "cang_tin_an_uong",
+      "patterns": [
+        "căng tin trường?",
+        "ăn uống ở đâu?"
+      ],
+      "responses": [
+        "Trường có khu vực căng tin phục vụ nhu cầu ăn uống, giải khát cho sinh viên và cán bộ, giảng viên với các món ăn đa dạng và giá cả hợp lý. Bạn có thể đến căng tin để ăn trưa, ăn nhẹ hoặc nghỉ ngơi giữa các giờ học."
+      ]
+    },
+    {
+      "tag": "xin_bang_diem_chung_nhan",
+      "patterns": [
+        "xin bảng điểm thế nào?",
+        "làm giấy chứng nhận sinh viên?"
+      ],
+      "responses": [
+        "Để xin cấp bảng điểm hoặc các loại giấy chứng nhận sinh viên, bạn cần liên hệ Phòng Đào tạo hoặc Phòng Công tác Sinh viên (tùy loại giấy tờ). Thường bạn sẽ cần điền vào mẫu đơn yêu cầu và có thể cần đóng một khoản lệ phí nhỏ theo quy định. Thời gian xử lý và trả kết quả sẽ được thông báo khi bạn nộp đơn."
+      ]
+    },
+    {
+      "tag": "hoc_song_song_hai_van_bang",
+      "patterns": [
+        "học song bằng được không?",
+        "học 2 ngành cùng lúc?"
+      ],
+      "responses": [
+        "Hiện tại, thông tin về việc Trường Đại học Kiến trúc Đà Nẵng có triển khai chương trình đào tạo song bằng (học song song hai chương trình để nhận hai văn bằng) hay không cần được xác nhận từ Phòng Đào tạo. Nếu có, các điều kiện và quy trình đăng ký sẽ được quy định cụ thể trong quy chế đào tạo. Bạn vui lòng liên hệ trực tiếp Phòng Đào tạo để có thông tin chính xác nhất."
+      ]
+    },
+    {
+      "tag": "do_an_tot_nghiep_khoa_luan",
+      "patterns": [
+        "làm đồ án tốt nghiệp?",
+        "khóa luận tốt nghiệp?"
+      ],
+      "responses": [
+        "Đồ án/Khóa luận tốt nghiệp là học phần quan trọng cuối khóa đối với nhiều ngành đào tạo. Sinh viên sẽ được phân công giảng viên hướng dẫn, lựa chọn hoặc được giao đề tài và thực hiện trong một khoảng thời gian nhất định. Quy định về cách thức thực hiện, trình bày và bảo vệ đồ án/khóa luận được Khoa chuyên ngành ban hành. Bạn cần theo dõi thông báo và hướng dẫn từ Khoa."
+      ]
+    },
+    {
+      "tag": "email_sinh_vien",
+      "patterns": [
+        "email sinh viên?",
+        "tài khoản email trường cấp?"
+      ],
+      "responses": [
+        "Thông thường, sinh viên sẽ được cấp một tài khoản email chính thức của trường (ví dụ: dạng ...@dau.edu.vn) để nhận các thông báo quan trọng từ nhà trường, giảng viên và sử dụng cho các mục đích học tập. Hướng dẫn về cách kích hoạt, sử dụng và xử lý khi quên mật khẩu thường được cung cấp khi nhập học hoặc qua bộ phận hỗ trợ kỹ thuật/công nghệ thông tin của trường."
+      ]
+    },
+    {
+      "tag": "tham_quan_kien_tap",
+      "patterns": [
+        "có đi tham quan thực tế không?",
+        "chương trình kiến tập?"
+      ],
+      "responses": [
+        "Trong chương trình học của một số ngành, đặc biệt là khối kỹ thuật, kiến trúc, kinh tế, có thể bao gồm các đợt tham quan, kiến tập thực tế tại các công trình, doanh nghiệp, nhà máy... để sinh viên có cái nhìn trực quan và gắn kết lý thuyết với thực tiễn. Các hoạt động này thường do Khoa/Bộ môn tổ chức và thông báo lịch trình cụ thể đến sinh viên."
+      ]
+    },
+    {
+      "tag": "dao_tao_sau_dai_hoc",
+      "patterns": [
+        "trường có đào tạo thạc sĩ/tiến sĩ?",
+        "học cao học ở DAU?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng có thể có các chương trình đào tạo trình độ Thạc sĩ hoặc Tiến sĩ ở một số chuyên ngành. Thông tin chi tiết về các ngành đào tạo sau đại học, điều kiện dự tuyển, chương trình học và học phí thường được công bố trên website của Phòng Đào tạo Sau đại học (hoặc phòng ban tương đương). Bạn vui lòng truy cập website trường để tìm mục 'Đào tạo Sau đại học'."
+      ]
+    },
+    {
+      "tag": "nghien_cuu_khoa_hoc_sv",
+      "patterns": [
+        "sinh viên nghiên cứu khoa học?",
+        "tham gia NCKH thế nào?"
+      ],
+      "responses": [
+        "Nhà trường khuyến khích sinh viên tham gia hoạt động Nghiên cứu Khoa học (NCKH) để nâng cao kiến thức và kỹ năng. Sinh viên có thể tham gia các đề tài NCKH dưới sự hướng dẫn của giảng viên, tham dự các hội nghị, cuộc thi NCKH sinh viên các cấp. Thông tin về các chương trình, chính sách hỗ trợ và hướng dẫn NCKH thường do Phòng Khoa học Công nghệ hoặc Đoàn Thanh niên phụ trách."
+      ]
+    },
+    {
+      "tag": "ho_tro_tim_viec_lam_chi_tiet",
+      "patterns": [
+        "hỗ trợ tìm việc làm?",
+        "dịch vụ hướng nghiệp?"
+      ],
+      "responses": [
+        "Ngoài việc kết nối với doanh nghiệp, Trung tâm Hỗ trợ Sinh viên & Quan hệ Doanh nghiệp (hoặc phòng ban tương đương) có thể tổ chức các hoạt động tư vấn hướng nghiệp, workshop kỹ năng mềm (viết CV, phỏng vấn), tổ chức Ngày hội việc làm (Job Fair) định kỳ để giúp sinh viên chuẩn bị tốt hơn cho thị trường lao động. Bạn hãy theo dõi thông báo từ trung tâm này để tham gia."
+      ]
+    },
+    {
+      "tag": "ho_tro_ky_thuat_it",
+      "patterns": [
+        "hỗ trợ kỹ thuật IT?",
+        "liên hệ IT helpdesk?"
+      ],
+      "responses": [
+        "Nếu gặp sự cố về kỹ thuật liên quan đến hệ thống mạng, wifi, email sinh viên, phần mềm học tập hoặc các vấn đề IT khác trong trường, bạn có thể liên hệ bộ phận hỗ trợ kỹ thuật/Trung tâm Công nghệ thông tin của trường (nếu có) để được giúp đỡ. Thông tin liên hệ (số điện thoại, email, địa điểm) thường có trên website trường."
+      ]
+    },
+    {
+      "tag": "kiem_dinh_chat_luong",
+      "patterns": [
+        "trường có kiểm định chất lượng?",
+        "chứng nhận chất lượng?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng chú trọng công tác đảm bảo và kiểm định chất lượng giáo dục theo các tiêu chuẩn của Bộ GD&ĐT và các tổ chức kiểm định uy tín (nếu có). Thông tin về kết quả kiểm định chất lượng cơ sở giáo dục hoặc các chương trình đào tạo cụ thể thường được công bố trên website của trường, tại mục 'Đảm bảo chất lượng' hoặc 'Giới thiệu'."
+      ]
+    },
+    {
+      "tag": "doan_thanh_nien_hoi_sinh_vien",
+      "patterns": [
+        "Đoàn Thanh niên/Hội Sinh viên?",
+        "vai trò Đoàn Hội?"
+      ],
+      "responses": [
+        "Đoàn Thanh niên Cộng sản Hồ Chí Minh và Hội Sinh viên Việt Nam trường là các tổ chức chính trị - xã hội, đại diện cho tiếng nói, quyền và lợi ích hợp pháp của đoàn viên, sinh viên. Các tổ chức này thường xuyên tổ chức các hoạt động phong trào về học tập, tình nguyện, văn hóa, thể thao, hỗ trợ sinh viên... Bạn có thể tìm hiểu và tham gia các hoạt động qua Ban chấp hành Đoàn trường, Hội Sinh viên trường hoặc các Liên chi đoàn/chi hội tại Khoa."
+      ]
+    },
+    {
+      "tag": "lich_su_bieu_tuong",
+      "patterns": [
+        "ý nghĩa logo trường?",
+        "biểu tượng DAU?"
+      ],
+      "responses": [
+        "Logo và các yếu tố nhận diện thương hiệu của Trường Đại học Kiến trúc Đà Nẵng mang những ý nghĩa đặc trưng, thể hiện tầm nhìn, sứ mệnh và bản sắc của nhà trường, thường liên quan đến lĩnh vực kiến trúc, xây dựng và sự phát triển. Bạn có thể tìm thấy giải thích chi tiết về ý nghĩa logo trên website chính thức của trường, trong mục Giới thiệu hoặc Tin tức."
+      ]
+    },
+    {
+      "tag": "cac_khoa_vien",
+      "patterns": [
+        "trường có những khoa nào?",
+        "danh sách các khoa?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng bao gồm nhiều Khoa chuyên ngành (như Khoa Kiến trúc, Khoa Xây dựng, Khoa Kinh tế, Khoa Ngoại ngữ, Khoa CNTT...), các Viện nghiên cứu và Trung tâm chức năng. Cơ cấu tổ chức chi tiết và danh sách các đơn vị trực thuộc trường được công bố trên website chính thức, thường trong mục 'Giới thiệu' hoặc 'Cơ cấu tổ chức'."
+      ]
+    },
+    {
+      "tag": "thu_tuc_hanh_chinh_mot_cua",
+      "patterns": [
+        "làm thủ tục hành chính ở đâu?",
+        "văn phòng một cửa?"
+      ],
+      "responses": [
+        "Để thuận tiện cho sinh viên, nhà trường có thể triển khai bộ phận 'Một cửa' (hoặc các phòng ban chức năng như Phòng Công tác Sinh viên, Phòng Đào tạo) để tiếp nhận và giải quyết các thủ tục hành chính thông thường (như xin giấy xác nhận, nộp đơn từ, xin bảng điểm...). Bạn nên đến các văn phòng này trong giờ hành chính để được hướng dẫn cụ thể."
+      ]
+    },
+    {
+      "tag": "startup_khoi_nghiep",
+      "patterns": [
+        "hỗ trợ startup?",
+        "khởi nghiệp sinh viên?"
+      ],
+      "responses": [
+        "Nhà trường khuyến khích tinh thần khởi nghiệp đổi mới sáng tạo trong sinh viên. Có thể có các câu lạc bộ khởi nghiệp, các cuộc thi ý tưởng kinh doanh, hoặc các chương trình hỗ trợ, vườn ươm (nếu có) để giúp sinh viên phát triển dự án của mình. Bạn có thể tìm hiểu thông tin qua Đoàn Thanh niên, Hội Sinh viên hoặc các trung tâm hỗ trợ khởi nghiệp (nếu có) của trường."
+      ]
+    },
+    {
+      "tag": "lich_tu_van_tuyen_sinh",
+      "patterns": [
+        "lịch tư vấn tuyển sinh?",
+        "ngày hội tư vấn?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng thường tổ chức các buổi tư vấn tuyển sinh trực tiếp tại trường hoặc trực tuyến (livestream, webinar) vào các đợt cao điểm tuyển sinh để cung cấp thông tin và giải đáp thắc mắc cho thí sinh và phụ huynh. Lịch cụ thể của các sự kiện này được thông báo rộng rãi trên website tuyển sinh (https://tuyensinh.dau.edu.vn/) và fanpage chính thức của trường. Bạn hãy theo dõi để không bỏ lỡ nhé!"
+      ]
+    },
+    {
+      "tag": "le_tot_nghiep",
+      "patterns": [
+        "lễ tốt nghiệp khi nào?",
+        "thông tin lễ trao bằng?"
+      ],
+      "responses": [
+        "Lễ trao bằng tốt nghiệp là sự kiện trang trọng đánh dấu hoàn thành quá trình học tập. Thông tin chi tiết về thời gian, địa điểm tổ chức, quy định về trang phục và cách thức đăng ký tham dự/nhận bằng thường được Phòng Công tác Sinh viên hoặc Phòng Đào tạo thông báo đến các sinh viên đủ điều kiện tốt nghiệp qua email hoặc cổng thông tin."
+      ]
+    },
+    {
+      "tag": "han_nop_hoc_phi",
+      "patterns": [
+        "hạn nộp học phí?",
+        "deadline đóng tiền học?"
+      ],
+      "responses": [
+        "Thời hạn nộp học phí cho mỗi học kỳ được quy định rõ trong thông báo học phí do Phòng Kế hoạch - Tài chính ban hành và gửi đến sinh viên. Việc nộp học phí đúng hạn là trách nhiệm của sinh viên. Trường hợp có khó khăn đặc biệt cần gia hạn, bạn cần liên hệ trực tiếp Phòng Kế hoạch - Tài chính để được xem xét theo quy định (nếu có)."
+      ]
+    },
+    {
+      "tag": "hoan_tra_hoc_phi",
+      "patterns": [
+        "hoàn trả học phí?",
+        "chính sách hoàn tiền học?"
+      ],
+      "responses": [
+        "Chính sách hoàn trả học phí (một phần hoặc toàn bộ) trong trường hợp sinh viên rút bớt học phần đã đăng ký hoặc xin thôi học được thực hiện theo quy chế tài chính của trường. Mức hoàn trả thường phụ thuộc vào thời điểm sinh viên nộp đơn so với thời gian bắt đầu học kỳ/khóa học. Bạn cần liên hệ Phòng Kế hoạch - Tài chính để biết quy định cụ thể và làm thủ tục."
+      ]
+    },
+    {
+      "tag": "doi_tac_quoc_te",
+      "patterns": [
+        "trường có đối tác quốc tế nào?",
+        "liên kết với trường nước ngoài?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng có quan hệ hợp tác với nhiều trường đại học, tổ chức quốc tế trong đào tạo và nghiên cứu. Danh sách các đối tác quốc tế tiêu biểu và nội dung hợp tác (nếu được công bố) thường có thể tìm thấy trên website trường, trong mục 'Hợp tác Quốc tế' hoặc 'Đối tác'."
+      ]
+    },
+    {
+      "tag": "thu_vien_co_so_du_lieu",
+      "patterns": [
+        "thư viện có CSDL online?",
+        "truy cập tài liệu điện tử?"
+      ],
+      "responses": [
+        "Ngoài nguồn sách in, Thư viện trường có thể cung cấp quyền truy cập vào các cơ sở dữ liệu tài liệu điện tử, tạp chí khoa học trong nước và quốc tế để hỗ trợ nghiên cứu và học tập. Thông tin về các CSDL được truy cập và hướng dẫn sử dụng thường có trên website của Thư viện hoặc tại quầy thông tin thư viện."
+      ]
+    },
+    {
+      "tag": "thu_vien_phat_qua_han",
+      "patterns": [
+        "trả sách muộn bị phạt không?",
+        "mất sách thư viện?"
+      ],
+      "responses": [
+        "Việc trả sách mượn tại thư viện đúng hạn là quy định bắt buộc. Nếu trả sách trễ hạn, bạn có thể phải chịu một khoản phí phạt theo ngày/theo đầu sách. Trường hợp làm mất hoặc hư hỏng sách, bạn sẽ phải bồi thường theo quy định của thư viện. Nội quy chi tiết về mượn trả và xử lý vi phạm có tại thư viện."
+      ]
+    },
+    {
+      "tag": "gian_lan_dao_van",
+      "patterns": [
+        "gian lận thi cử bị xử lý thế nào?",
+        "đạo văn bị sao?"
+      ],
+      "responses": [
+        "Gian lận trong thi cử và đạo văn trong học thuật (sao chép công trình của người khác mà không trích dẫn nguồn) là những hành vi vi phạm nghiêm trọng quy chế học vụ. Sinh viên vi phạm sẽ bị xử lý kỷ luật tùy theo mức độ, từ khiển trách, cảnh cáo, đình chỉ học tập đến buộc thôi học. Nhà trường có quy định cụ thể về các hành vi này và hình thức xử lý."
+      ]
+    },
+    {
+      "tag": "hoat_dong_cong_dong",
+      "patterns": [
+        "hoạt động tình nguyện?",
+        "hoạt động xã hội?"
+      ],
+      "responses": [
+        "Nhà trường và các tổ chức Đoàn Thanh niên - Hội Sinh viên thường xuyên tổ chức hoặc kêu gọi sinh viên tham gia các hoạt động tình nguyện, phục vụ cộng đồng ý nghĩa như: Mùa hè xanh, Tiếp sức mùa thi, hiến máu nhân đạo, các chương trình thiện nguyện... Đây là cơ hội để sinh viên rèn luyện, cống hiến và thể hiện trách nhiệm xã hội. Thông tin các chương trình được đăng tải trên kênh của Đoàn - Hội."
+      ]
+    },
+    {
+      "tag": "lien_he_khoa_phong_ban",
+      "patterns": [
+        "liên hệ Khoa/Phòng ban?",
+        "xin số điện thoại Khoa?"
+      ],
+      "responses": [
+        "Để liên hệ trực tiếp với các Khoa chuyên ngành hoặc các Phòng/Ban chức năng (Đào tạo, Công tác Sinh viên, Kế hoạch Tài chính, Hợp tác Quốc tế...), bạn có thể tìm thông tin liên hệ (số điện thoại, email, địa chỉ văn phòng) trên website chính thức của trường, thường trong mục 'Liên hệ' hoặc 'Cơ cấu tổ chức'. Bạn nên liên hệ trong giờ hành chính."
+      ]
+    },
+    {
+      "tag": "lien_he_khan_cap",
+      "patterns": [
+        "liên hệ khẩn cấp?",
+        "số hotline an ninh/y tế?"
+      ],
+      "responses": [
+        "Trong trường hợp khẩn cấp về y tế, an ninh hoặc sự cố trong khuôn viên trường, bạn cần liên hệ ngay các số điện thoại nóng (nếu có) của Phòng Y tế, Bộ phận Bảo vệ hoặc Ban quản lý tòa nhà được niêm yết tại các vị trí dễ thấy hoặc trên website trường. Đồng thời, bạn cũng nên biết các số điện thoại khẩn cấp quốc gia như 113 (Cảnh sát), 114 (Cứu hỏa), 115 (Cấp cứu)."
+      ]
+    },
+    {
+      "tag": "ban_can_su_lop",
+      "patterns": [
+        "Ban cán sự lớp?",
+        "liên hệ lớp trưởng?"
+      ],
+      "responses": [
+        "Mỗi lớp học thường có Ban cán sự (Lớp trưởng, Lớp phó học tập, Lớp phó đời sống...) và Ban chấp hành Chi đoàn/Chi hội để đại diện cho lớp, làm cầu nối giữa sinh viên với giảng viên và các phòng ban. Ban cán sự lớp có trách nhiệm quản lý lớp, phổ biến thông tin và hỗ trợ các hoạt động chung. Bạn có thể liên hệ Ban cán sự lớp mình khi cần thông tin hoặc hỗ trợ."
+      ]
+    },
+    {
+      "tag": "phan_mem_ban_quyen",
+      "patterns": [
+        "trường có cấp phần mềm bản quyền?",
+        "dùng phần mềm miễn phí?"
+      ],
+      "responses": [
+        "Nhà trường có thể cung cấp hoặc hỗ trợ sinh viên truy cập các phần mềm bản quyền cần thiết cho học tập, đặc biệt là các ngành kỹ thuật, thiết kế (ví dụ: bộ phần mềm Autodesk, Microsoft Office 365...). Thông tin về các phần mềm được hỗ trợ và cách thức cài đặt/đăng ký thường được Khoa chuyên ngành hoặc Trung tâm Công nghệ thông tin hướng dẫn. Bạn hãy kiểm tra thông tin từ các nguồn này."
+      ]
+    },
+    {
+      "tag": "bao_hiem_tai_nan",
+      "patterns": [
+        "bảo hiểm tai nạn sinh viên?",
+        "ngoài bhyt còn bảo hiểm gì?"
+      ],
+      "responses": [
+        "Ngoài Bảo hiểm Y tế (BHYT) là bắt buộc theo quy định nhà nước, nhà trường có thể triển khai thêm các loại hình bảo hiểm khác như Bảo hiểm tai nạn thân thể cho sinh viên (có thể là tự nguyện hoặc bắt buộc tuỳ theo quy định từng năm). Thông tin về mức đóng, quyền lợi và phạm vi bảo hiểm (nếu có) sẽ được Phòng Công tác Sinh viên thông báo vào đầu năm học."
+      ]
+    },
+    {
+      "tag": "quy_trinh_khieu_nai_diem",
+      "patterns": [
+        "khiếu nại điểm thi?",
+        "phúc khảo bài thi?"
+      ],
+      "responses": [
+        "Nếu có thắc mắc hoặc cho rằng có sai sót trong kết quả thi, sinh viên có quyền làm đơn phúc khảo (khiếu nại điểm) theo quy định. Đơn phúc khảo cần được nộp tại Phòng Đào tạo (hoặc theo hướng dẫn của Khoa) trong thời hạn quy định sau khi công bố điểm. Quy trình và mẫu đơn phúc khảo được niêm yết tại Phòng Đào tạo hoặc trên website."
+      ]
+    },
+    {
+      "tag": "mat_do_tim_do",
+      "patterns": [
+        "mất đồ thì báo ở đâu?",
+        "tìm đồ thất lạc?"
+      ],
+      "responses": [
+        "Trường hợp bị mất đồ hoặc nhặt được đồ bị đánh rơi trong khuôn viên trường, bạn nên liên hệ Bộ phận Bảo vệ hoặc Văn phòng các Khoa/Phòng ban gần nhất để báo cáo hoặc hỏi thông tin. Nhà trường có thể có khu vực tập trung đồ thất lạc (Lost and Found) tại phòng bảo vệ hoặc một địa điểm quy định."
+      ]
+    },
+    {
+      "tag": "dat_phong_hoi_truong",
+      "patterns": [
+        "mượn phòng học/hội trường?",
+        "đặt phòng sinh hoạt CLB?"
+      ],
+      "responses": [
+        "Các câu lạc bộ, đội nhóm hoặc tập thể lớp muốn sử dụng phòng học, hội trường cho các hoạt động, sự kiện cần làm thủ tục đăng ký mượn phòng theo quy định của trường. Thường bạn sẽ cần liên hệ Phòng Quản trị Thiết bị hoặc Phòng Công tác Sinh viên để biết quy trình, mẫu đơn và lịch trống của các phòng."
+      ]
+    },
+    {
+      "tag": "cua_hang_luu_niem",
+      "patterns": [
+        "trường có bán đồ lưu niệm?",
+        "mua áo trường ở đâu?"
+      ],
+      "responses": [
+        "Hiện tại, thông tin về việc trường có cửa hàng lưu niệm chính thức bán các sản phẩm mang thương hiệu DAU (áo, huy hiệu, sổ tay...) cần được xác nhận. Bạn có thể hỏi thông tin tại Văn phòng Đoàn Thanh niên - Hội Sinh viên hoặc các sự kiện lớn của trường xem có các điểm bán tạm thời hay không."
+      ]
+    },
+    {
+      "tag": "xe_buyt_cong_cong",
+      "patterns": [
+        "có tuyến xe buýt nào đến trường?",
+        "đi xe bus đến DAU?"
+      ],
+      "responses": [
+        "Khu vực gần Trường Đại học Kiến trúc Đà Nẵng có thể có các tuyến xe buýt công cộng đi qua, giúp sinh viên thuận tiện trong việc di chuyển. Bạn có thể tìm kiếm thông tin lộ trình các tuyến xe buýt của thành phố Đà Nẵng trên các ứng dụng giao thông công cộng (như DanaBus) hoặc website của Sở Giao thông Vận tải để xem tuyến nào phù hợp và có trạm dừng gần trường."
+      ]
+    },
+    {
+      "tag": "tap_chi_noi_san_khoa_hoc",
+      "patterns": [
+        "trường có tạp chí khoa học?",
+        "nơi công bố nghiên cứu?"
+      ],
+      "responses": [
+        "Nhà trường hoặc các Khoa/Viện có thể có các ấn phẩm khoa học như Tạp chí Khoa học, Nội san... để công bố các công trình nghiên cứu của giảng viên, nhà khoa học và sinh viên. Thông tin về các ấn phẩm này (nếu có), thể lệ gửi bài và các số đã xuất bản thường có trên website của Phòng Khoa học Công nghệ hoặc của đơn vị chủ quản tạp chí."
+      ]
+    },
+    {
+      "tag": "quy_tac_ung_xu_van_hoa",
+      "patterns": [
+        "quy tắc ứng xử?",
+        "văn hóa học đường?"
+      ],
+      "responses": [
+        "Nhà trường ban hành Bộ quy tắc ứng xử văn hóa nhằm xây dựng môi trường học đường văn minh, lịch sự. Sinh viên cần tuân thủ các chuẩn mực về giao tiếp, trang phục, thái độ ứng xử với thầy cô, bạn bè và cán bộ nhà trường, cũng như giữ gìn tài sản chung và vệ sinh môi trường. Nội dung chi tiết thường được phổ biến trong tuần sinh hoạt công dân đầu khóa hoặc đăng tải trên website."
+      ]
+    },
+    {
+      "tag": "danh_gia_ren_luyen",
+      "patterns": [
+        "đánh giá điểm rèn luyện?",
+        "điểm rèn luyện để làm gì?"
+      ],
+      "responses": [
+        "Điểm rèn luyện là kết quả đánh giá ý thức, thái độ của sinh viên trong việc chấp hành nội quy, tham gia các hoạt động chính trị-xã hội, học tập... trong mỗi học kỳ. Quy trình đánh giá, các tiêu chí và khung điểm được quy định cụ thể trong Quy chế đánh giá kết quả rèn luyện của sinh viên. Kết quả này ảnh hưởng đến việc xét học bổng, khen thưởng và tốt nghiệp."
+      ]
+    },
+    {
+      "tag": "tham_gia_dang",
+      "patterns": [
+        "làm sao để vào Đảng?",
+        "phấn đấu thành Đảng viên?"
+      ],
+      "responses": [
+        "Sinh viên ưu tú, có nguyện vọng và đủ điều kiện có thể phấn đấu để được xem xét kết nạp vào Đảng Cộng sản Việt Nam. Quá trình này đòi hỏi sự nỗ lực trong học tập, rèn luyện, tích cực tham gia hoạt động phong trào và cần được Chi bộ sinh viên (nếu có) hoặc Chi bộ Khoa/Phòng ban giới thiệu, bồi dưỡng. Bạn có thể tìm hiểu thông tin từ Bí thư Chi đoàn lớp hoặc Văn phòng Đảng ủy trường."
+      ]
+    },
+    {
+      "tag": "tiep_can_nguoi_khuyet_tat",
+      "patterns": [
+        "trường có hỗ trợ người đi xe lăn?",
+        "lối đi cho người khuyết tật?"
+      ],
+      "responses": [
+        "Nhà trường nỗ lực tạo điều kiện thuận lợi cho người khuyết tật. Một số tòa nhà có thể được trang bị lối đi riêng, thang máy hoặc các thiết bị hỗ trợ khác. Để biết thông tin chi tiết về khả năng tiếp cận tại các khu vực cụ thể hoặc yêu cầu hỗ trợ đặc biệt, sinh viên khuyết tật nên liên hệ Phòng Công tác Sinh viên hoặc Phòng Quản trị Thiết bị."
+      ]
+    },
+    {
+      "tag": "thong_tin_phu_huynh",
+      "patterns": [
+        "liên lạc với phụ huynh?",
+        "kênh thông tin cho cha mẹ?"
+      ],
+      "responses": [
+        "Nhà trường coi trọng sự phối hợp giữa gia đình và nhà trường trong việc giáo dục sinh viên. Thông tin về tình hình học tập, rèn luyện của sinh viên thường được cập nhật qua Cổng thông tin sinh viên mà sinh viên có thể chia sẻ với gia đình. Các thông báo quan trọng hoặc các buổi gặp mặt phụ huynh (nếu có) sẽ được thông báo trực tiếp qua các kênh liên lạc chính thức. Phụ huynh có thể liên hệ Phòng Công tác Sinh viên hoặc Khoa chủ quản để được hỗ trợ khi cần thiết."
+      ]
+    },
+    {
+      "tag": "chinh_sach_ben_vung_moi_truong",
+      "patterns": [
+        "chính sách bảo vệ môi trường?",
+        "hoạt động xanh?"
+      ],
+      "responses": [
+        "Trường Đại học Kiến trúc Đà Nẵng có thể có các chính sách hoặc hoạt động nhằm thúc đẩy sự phát triển bền vững và bảo vệ môi trường, như khuyến khích tiết kiệm điện, nước, phân loại rác thải, tổ chức các chiến dịch làm sạch môi trường... Thông tin về các sáng kiến hoặc chính sách cụ thể (nếu có) có thể được tìm thấy trên website trường hoặc qua các hoạt động của Đoàn Thanh niên - Hội Sinh viên."
+      ]
+    },
+    {
+      "tag": "khong_gian_trung_bay_trien_lam",
+      "patterns": [
+        "nơi trưng bày đồ án?",
+        "xem triển lãm sinh viên?"
+      ],
+      "responses": [
+        "Với đặc thù đào tạo về kiến trúc và mỹ thuật ứng dụng, trường có thể có các không gian dành riêng (như sảnh lớn, phòng truyền thống, hoặc khu vực tại Khoa) để trưng bày các đồ án, mô hình, tác phẩm xuất sắc của sinh viên và giảng viên. Các triển lãm thường được tổ chức vào các dịp đặc biệt hoặc cuối mỗi học kỳ/năm học. Bạn có thể theo dõi thông báo từ các Khoa liên quan."
+      ]
+    },
+    {
+      "tag": "ho_tro_sinh_vien_quoc_te_cu_the",
+      "patterns": [
+        "hỗ trợ visa cho sinh viên quốc tế?",
+        "giúp đỡ du học sinh hòa nhập?"
+      ],
+      "responses": [
+        "Phòng Hợp tác Quốc tế (hoặc đơn vị tương đương) thường là đầu mối hỗ trợ sinh viên quốc tế các thủ tục hành chính như visa, nhập cảnh, gia hạn tạm trú. Ngoài ra, trường có thể tổ chức các chương trình định hướng (orientation), hỗ trợ tìm kiếm chỗ ở, các lớp tiếng Việt bổ trợ hoặc các hoạt động giao lưu văn hóa giúp sinh viên quốc tế hòa nhập tốt hơn với môi trường học tập và cuộc sống tại Việt Nam."
+      ]
+    },
+    {
+      "tag": "quy_trinh_khieu_nai_chinh_thuc",
+      "patterns": [
+        "quy trình khiếu nại chính thức?",
+        "khiếu nại lên cấp cao hơn?"
+      ],
+      "responses": [
+        "Ngoài việc góp ý trực tiếp, nếu sinh viên có những khiếu nại, phản ánh chính thức về các vấn đề liên quan đến đào tạo, cơ sở vật chất, hoặc thái độ phục vụ..., nhà trường có quy trình tiếp nhận và giải quyết theo các cấp. Bạn nên bắt đầu từ việc liên hệ đơn vị trực tiếp quản lý vấn đề (Khoa, Phòng ban). Nếu không được giải quyết thỏa đáng, bạn có thể gửi đơn lên cấp cao hơn theo quy chế giải quyết khiếu nại, tố cáo của trường (thường liên hệ Phòng Thanh tra - Pháp chế hoặc Ban Giám hiệu)."
+      ]
+    },
+    {
+      "tag": "dao_duc_nghien_cuu",
+      "patterns": [
+        "quy định đạo đức nghiên cứu?",
+        "liêm chính học thuật?"
+      ],
+      "responses": [
+        "Nhà trường yêu cầu việc thực hiện các hoạt động nghiên cứu khoa học phải tuân thủ các nguyên tắc về đạo đức và liêm chính học thuật. Đối với các nghiên cứu liên quan đến con người hoặc động vật, có thể cần thông qua Hội đồng Đạo đức trong nghiên cứu (nếu có) của trường. Các quy định cụ thể về đạo đức nghiên cứu thường do Phòng Khoa học Công nghệ ban hành."
+      ]
+    },
+    {
+      "tag": "ket_noi_wifi_khach",
+      "patterns": [
+        "khách vào trường dùng wifi?",
+        "wifi cho khách?"
+      ],
+      "responses": [
+        "Hệ thống Wi-Fi của trường chủ yếu phục vụ cho sinh viên và cán bộ, giảng viên có tài khoản. Việc cung cấp truy cập Wi-Fi cho khách (phụ huynh, khách tham quan...) có thể hạn chế hoặc yêu cầu đăng ký tại một số khu vực nhất định (như thư viện, hội trường khi có sự kiện). Bạn nên hỏi nhân viên tại địa điểm đó để biết chi tiết."
+      ]
+    },
+    {
+      "tag": "chup_anh_quay_phim",
+      "patterns": [
+        "được chụp ảnh trong trường không?",
+        "quy định quay phim?"
+      ],
+      "responses": [
+        "Việc chụp ảnh, quay phim trong khuôn viên trường cho mục đích cá nhân thường được phép ở các khu vực công cộng. Tuy nhiên, nếu thực hiện cho mục đích thương mại, báo chí hoặc tại các khu vực hạn chế (phòng thí nghiệm, khu vực làm việc riêng...), bạn cần xin phép và tuân thủ quy định của nhà trường. Khi tham gia các sự kiện, cần tuân thủ hướng dẫn của ban tổ chức."
+      ]
+    },
+    {
+      "tag": "canh_bao_hoc_vu",
+      "patterns": [
+        "cảnh báo học vụ là gì?",
+        "khi nào bị buộc thôi học?"
+      ],
+      "responses": [
+        "Nhà trường có quy định về việc cảnh báo học vụ đối với sinh viên có kết quả học tập yếu kém (ví dụ: điểm trung bình quá thấp, nợ quá nhiều tín chỉ). Nếu không cải thiện sau khi bị cảnh báo, sinh viên có thể bị xem xét buộc thôi học. Các mức cảnh báo, điều kiện áp dụng và quy trình xử lý được quy định chi tiết trong Quy chế đào tạo học vụ. Sinh viên cần chủ động theo dõi kết quả học tập và liên hệ Cố vấn học tập/Khoa để được hỗ trợ nếu gặp khó khăn."
+      ]
+    },
+    {
+      "tag": "an_pham_sinh_vien",
+      "patterns": [
+        "trường có báo/tạp chí sinh viên?",
+        "ấn phẩm sinh viên?"
+      ],
+      "responses": [
+        "Một số trường đại học có các ấn phẩm do sinh viên tự thực hiện (như báo tường, nội san, tạp chí sinh viên) dưới sự quản lý của Đoàn Thanh niên - Hội Sinh viên hoặc Khoa. Bạn có thể tìm hiểu xem DAU có các ấn phẩm dạng này không qua các kênh thông tin của Đoàn - Hội hoặc Khoa chuyên ngành của mình."
+      ]
+    },
+    {
+      "tag": "khen_thuong_dac_biet_danh_hieu",
+      "patterns": [
+        "các danh hiệu khen thưởng?",
+        "học bổng đặc biệt?"
+      ],
+      "responses": [
+        "Ngoài học bổng khuyến khích học tập thông thường, nhà trường có thể có các hình thức khen thưởng, danh hiệu đặc biệt (ví dụ: Sinh viên xuất sắc năm học, Thủ khoa tốt nghiệp, danh sách sinh viên tiêu biểu của Khoa - Dean's List nếu áp dụng) hoặc các học bổng mang tên nhà tài trợ. Tiêu chuẩn và quy trình xét tặng các danh hiệu/học bổng này được công bố trong các quy định về khen thưởng hoặc thông báo cụ thể từng đợt."
+      ]
+    },
+    {
+      "tag": "chuong_trinh_co_van_hoc_tap",
+      "patterns": [
+        "cố vấn học tập là ai?",
+        "liên hệ cố vấn học tập?"
+      ],
+      "responses": [
+        "Mỗi lớp sinh viên thường được phân công một Cố vấn học tập (thường là giảng viên trong Khoa) để đồng hành, hỗ trợ sinh viên trong suốt quá trình học tập. Cố vấn học tập có thể tư vấn về việc xây dựng kế hoạch học tập, đăng ký môn học, giải đáp thắc mắc về quy chế, định hướng nghề nghiệp và hỗ trợ khi sinh viên gặp khó khăn. Bạn nên chủ động liên hệ với Cố vấn học tập của lớp mình khi cần thiết."
+      ]
+    },
+    {
+      "tag": "quy_dinh_su_dung_tai_san",
+      "patterns": [
+        "quy định sử dụng tài sản?",
+        "làm hỏng đồ trường thì sao?"
+      ],
+      "responses": [
+        "Sinh viên có trách nhiệm sử dụng và bảo quản tài sản, trang thiết bị chung của nhà trường (trong phòng học, thư viện, phòng thí nghiệm, xưởng thực hành...) một cách cẩn thận, đúng mục đích. Trường hợp làm hư hỏng hoặc mất mát tài sản do lỗi cá nhân, sinh viên phải chịu trách nhiệm bồi thường theo quy định. Nội quy sử dụng cụ thể cho từng phòng/thiết bị thường được niêm yết tại chỗ."
+      ]
+    },
+    {
+      "tag": "cntt_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành CNTT?",
+        "học IT ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Công nghệ Thông tin tại DAU là trang bị cho sinh viên kiến thức nền tảng vững chắc và kỹ năng chuyên môn cần thiết để có thể làm việc hiệu quả trong lĩnh vực IT, bao gồm khả năng phân tích, thiết kế, phát triển, vận hành phần mềm, hệ thống mạng và quản trị dữ liệu. Chuẩn đầu ra chi tiết của ngành được công bố trong chương trình đào tạo trên website Khoa Công nghệ Thông tin (nếu có) hoặc trang tuyển sinh."
+      ]
+    },
+    {
+      "tag": "cntt_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học CNTT?",
+        "ngành IT học những gì?"
+      ],
+      "responses": [
+        "Chương trình đào tạo ngành CNTT tại DAU bao gồm các khối kiến thức đại cương, cơ sở ngành và chuyên ngành. Các môn học cốt lõi thường gồm: Lập trình cơ bản & nâng cao (C++, Java, Python...), Cấu trúc dữ liệu & giải thuật, Cơ sở dữ liệu, Mạng máy tính, Hệ điều hành, An toàn thông tin, Công nghệ phần mềm, Lập trình web... Khung chương trình chi tiết theo từng học kỳ có thể xem trên website của Khoa hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "cntt_chuyen_nganh_hep",
+      "patterns": [
+        "CNTT có chuyên ngành hẹp nào?",
+        "hướng chuyên sâu IT?"
+      ],
+      "responses": [
+        "Chương trình CNTT tại DAU có thể được thiết kế theo một định hướng chung hoặc có các hướng chuyên sâu để sinh viên lựa chọn vào những năm cuối (ví dụ: Công nghệ phần mềm, Mạng máy tính và Truyền thông, Hệ thống thông tin...). Thông tin chính xác về các chuyên ngành hẹp (nếu có) và lộ trình học tập bạn nên tham khảo trực tiếp từ đề cương chương trình đào tạo hoặc tư vấn của Khoa Công nghệ Thông tin."
+      ]
+    },
+    {
+      "tag": "cntt_giang_vien",
+      "patterns": [
+        "giảng viên ngành CNTT?",
+        "ai dạy IT?"
+      ],
+      "responses": [
+        "Khoa Công nghệ Thông tin (hoặc đơn vị phụ trách ngành CNTT) tại DAU quy tụ đội ngũ giảng viên có trình độ chuyên môn (Thạc sĩ, Tiến sĩ), kinh nghiệm giảng dạy và thực tế trong lĩnh vực IT. Thông tin chi tiết về danh sách giảng viên và lĩnh vực nghiên cứu của họ có thể được cập nhật trên website của Khoa (nếu có) hoặc trong phần giới thiệu chung của trường."
+      ]
+    },
+    {
+      "tag": "cntt_phong_thuc_hanh",
+      "patterns": [
+        "phòng thực hành CNTT?",
+        "phòng lab IT?"
+      ],
+      "responses": [
+        "Để phục vụ việc học tập và thực hành ngành CNTT, trường đầu tư hệ thống phòng máy tính cấu hình phù hợp, phòng thực hành mạng và các thiết bị cần thiết khác. Sinh viên sẽ được thực hành lập trình, quản trị mạng, cơ sở dữ liệu... tại các phòng lab này theo lịch học. Bạn có thể tìm hiểu thêm về cơ sở vật chất của Khoa CNTT qua website hoặc khi tham quan trường."
+      ]
+    },
+    {
+      "tag": "cntt_ky_nang_dat_duoc",
+      "patterns": [
+        "học IT xong có kỹ năng gì?",
+        "kỹ năng ngành CNTT?"
+      ],
+      "responses": [
+        "Sau khi tốt nghiệp ngành CNTT tại DAU, sinh viên dự kiến sẽ có các kỹ năng như: lập trình ứng dụng (web, mobile, desktop), phân tích và thiết kế hệ thống thông tin, quản trị cơ sở dữ liệu, quản trị hệ thống mạng máy tính, kỹ năng làm việc nhóm, giải quyết vấn đề và tự học để cập nhật công nghệ mới."
+      ]
+    },
+    {
+      "tag": "cntt_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm CNTT?",
+        "học IT ra làm gì?"
+      ],
+      "responses": [
+        "Sinh viên tốt nghiệp ngành CNTT có cơ hội việc làm rất rộng mở tại các công ty phần mềm, công ty gia công xuất khẩu phần mềm, các doanh nghiệp có bộ phận IT, cơ quan nhà nước... Các vị trí phổ biến bao gồm: Lập trình viên (Developer), Kỹ sư kiểm thử phần mềm (Tester), Chuyên viên quản trị mạng, Chuyên viên quản trị cơ sở dữ liệu, Chuyên viên phân tích nghiệp vụ (BA)..."
+      ]
+    },
+    {
+      "tag": "cntt_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn CNTT?",
+        "xét tuyển ngành IT?"
+      ],
+      "responses": [
+        "Điểm chuẩn trúng tuyển ngành Công nghệ Thông tin thay đổi hàng năm và phụ thuộc vào phương thức xét tuyển (điểm thi THPT, học bạ...). Tổ hợp xét tuyển phổ biến là A00 (Toán, Lý, Hóa) và A01 (Toán, Lý, Anh). Bạn cần theo dõi thông báo tuyển sinh chính thức hàng năm trên trang https://tuyensinh.dau.edu.vn/ để biết điểm chuẩn và chỉ tiêu chính xác."
+      ]
+    },
+    {
+      "tag": "cntt_cau_lac_bo",
+      "patterns": [
+        "câu lạc bộ IT?",
+        "CLB Công nghệ thông tin?"
+      ],
+      "responses": [
+        "Khoa Công nghệ Thông tin hoặc Đoàn Thanh niên - Hội Sinh viên trường có thể có các Câu lạc bộ học thuật hoặc sở thích liên quan đến IT (ví dụ: CLB Lập trình, CLB Mạng máy tính, CLB An toàn thông tin...). Tham gia CLB là cơ hội tốt để sinh viên giao lưu, học hỏi, chia sẻ kinh nghiệm và thực hiện các dự án nhỏ. Bạn có thể tìm hiểu thông tin tại văn phòng Khoa hoặc qua các kênh truyền thông của Đoàn - Hội."
+      ]
+    },
+    {
+      "tag": "cntt_thuc_tap_doanh_nghiep",
+      "patterns": [
+        "thực tập ngành CNTT?",
+        "công ty IT liên kết?"
+      ],
+      "responses": [
+        "Khoa Công nghệ Thông tin thường có mối liên kết với các doanh nghiệp IT tại Đà Nẵng và khu vực để tạo điều kiện cho sinh viên đi thực tập, kiến tập. Nhà trường và Khoa có thể giới thiệu các công ty đối tác hoặc tổ chức các buổi gặp gỡ, hội thảo với doanh nghiệp để sinh viên tìm kiếm cơ hội thực tập và việc làm."
+      ]
+    },
+    {
+      "tag": "cntt_cong_nghe_giang_day",
+      "patterns": [
+        "ngành IT dạy công nghệ gì?",
+        "học ngôn ngữ lập trình nào?"
+      ],
+      "responses": [
+        "Chương trình đào tạo CNTT tại DAU thường cập nhật các công nghệ và ngôn ngữ lập trình phổ biến trong ngành như Java, Python, C#, JavaScript... cùng các hệ quản trị cơ sở dữ liệu như SQL Server, MySQL. Các framework cụ thể (như Spring, .NET, React, Angular...) có thể được giới thiệu trong các môn học chuyên sâu. Để biết chính xác các công nghệ được nhấn mạnh trong chương trình hiện tại, bạn nên tham khảo đề cương chi tiết các môn học trên website Khoa/Trường."
+      ]
+    },
+    {
+      "tag": "cntt_do_an_mon_hoc_lon",
+      "patterns": [
+        "đồ án môn học IT?",
+        "project cuối kỳ CNTT?"
+      ],
+      "responses": [
+        "Trong quá trình học ngành CNTT, sinh viên thường phải thực hiện các đồ án môn học hoặc dự án nhỏ cuối kỳ để áp dụng kiến thức đã học vào việc xây dựng một sản phẩm phần mềm hoặc giải quyết một bài toán thực tế. Các đồ án này giúp rèn luyện kỹ năng lập trình, làm việc nhóm và quản lý dự án. Quy mô và yêu cầu cụ thể tùy thuộc vào từng môn học."
+      ]
+    },
+    {
+      "tag": "cntt_do_an_tot_nghiep",
+      "patterns": [
+        "đồ án tốt nghiệp CNTT?",
+        "khóa luận ngành IT?"
+      ],
+      "responses": [
+        "Đồ án tốt nghiệp ngành CNTT là một công trình nghiên cứu hoặc ứng dụng có quy mô lớn hơn, đòi hỏi sinh viên vận dụng tổng hợp kiến thức và kỹ năng đã học. Sinh viên thường được chọn đề tài (hoặc nhận đề tài từ giảng viên) và thực hiện dưới sự hướng dẫn của một giảng viên trong khoảng một học kỳ. Việc bảo vệ thành công đồ án tốt nghiệp là một trong các điều kiện để được xét công nhận tốt nghiệp."
+      ]
+    },
+    {
+      "tag": "cntt_nghien_cuu_khoa_hoc",
+      "patterns": [
+        "nghiên cứu khoa học ngành IT?",
+        "hướng nghiên cứu CNTT?"
+      ],
+      "responses": [
+        "Giảng viên Khoa Công nghệ Thông tin tại DAU có thể có các hướng nghiên cứu tập trung vào những lĩnh vực đang phát triển như Trí tuệ nhân tạo (AI), Học máy (Machine Learning), Khoa học dữ liệu (Data Science), An toàn thông tin, Internet of Things (IoT), Công nghệ phần mềm... Sinh viên có thành tích học tập tốt và đam mê nghiên cứu có thể liên hệ giảng viên để tìm hiểu và tham gia các đề tài NCKH phù hợp."
+      ]
+    },
+    {
+      "tag": "cntt_cuoc_thi_olympic",
+      "patterns": [
+        "cuộc thi lập trình?",
+        "olympic tin học?"
+      ],
+      "responses": [
+        "Khoa Công nghệ Thông tin có thể khuyến khích và thành lập đội tuyển sinh viên tham gia các cuộc thi lập trình, Olympic Tin học sinh viên cấp quốc gia hoặc khu vực (như ACM ICPC, Kỳ thi Olympic Tin học Sinh viên Việt Nam - OLP...). Đây là sân chơi bổ ích để sinh viên cọ xát, nâng cao kỹ năng và khẳng định bản thân. Bạn có thể theo dõi thông báo từ Khoa hoặc các CLB học thuật để biết thông tin tuyển chọn và tham gia."
+      ]
+    },
+    {
+      "tag": "cntt_chung_chi_quoc_te",
+      "patterns": [
+        "chứng chỉ quốc tế IT?",
+        "học thi CCNA/MCSA?"
+      ],
+      "responses": [
+        "Chương trình học ngành CNTT có thể trang bị kiến thức nền tảng liên quan đến một số chứng chỉ quốc tế phổ biến (như CCNA về mạng, các chứng chỉ về lập trình, cơ sở dữ liệu, điện toán đám mây...). Tuy nhiên, việc ôn luyện và thi lấy chứng chỉ thường là nỗ lực cá nhân của sinh viên. Nhà trường hoặc Khoa có thể tổ chức các buổi giới thiệu hoặc khóa học bổ trợ (nếu có) nhưng không đảm bảo bao gồm trong chương trình chính quy. Bạn nên tìm hiểu yêu cầu cụ thể của từng chứng chỉ mình quan tâm."
+      ]
+    },
+    {
+      "tag": "cntt_diem_khac_biet_dau",
+      "patterns": [
+        "điểm khác biệt ngành IT ở DAU?",
+        "thế mạnh CNTT tại DAU?"
+      ],
+      "responses": [
+        "Một trong những điểm tiềm năng của ngành CNTT tại Đại học Kiến trúc Đà Nẵng là cơ hội ứng dụng công nghệ thông tin vào các lĩnh vực thế mạnh của trường như Kiến trúc, Xây dựng, Quy hoạch, Thiết kế (ví dụ: BIM, GIS, mô phỏng, thực tế ảo/tăng cường...). Chương trình có thể chú trọng tính ứng dụng và thực hành để đáp ứng nhu cầu nhân lực IT trong các ngành đặc thù này và các ngành kinh tế - xã hội khác. Tuy nhiên, bạn nên tìm hiểu kỹ chương trình đào tạo để thấy rõ định hướng này."
+      ]
+    },
+    {
+      "tag": "cntt_hoat_dong_khoa",
+      "patterns": [
+        "hoạt động khoa CNTT?",
+        "sự kiện ngành IT?"
+      ],
+      "responses": [
+        "Khoa Công nghệ Thông tin có thể thường xuyên tổ chức các hoạt động ngoại khóa học thuật và nghề nghiệp cho sinh viên như: các buổi seminar giới thiệu công nghệ mới, workshop kỹ năng, talkshow với chuyên gia/cựu sinh viên thành đạt, các cuộc thi nội bộ Khoa... Thông tin về các hoạt động này thường được đăng tải trên bảng tin, website hoặc fanpage của Khoa (nếu có)."
+      ]
+    },
+    {
+      "tag": "cntt_du_an_lien_nganh",
+      "patterns": [
+        "dự án IT liên ngành?",
+        "kết hợp CNTT với kiến trúc?"
+      ],
+      "responses": [
+        "Với lợi thế của một trường đại học đa ngành tập trung vào Kiến trúc - Xây dựng - Thiết kế, sinh viên ngành CNTT tại DAU có thể có cơ hội tham gia các dự án liên ngành, ứng dụng IT vào giải quyết các bài toán thực tế trong các lĩnh vực này (ví dụ: phát triển phần mềm hỗ trợ BIM, ứng dụng GIS trong quy hoạch, xây dựng mô hình VR/AR cho công trình...). Bạn có thể tìm hiểu các hướng nghiên cứu hoặc dự án cụ thể từ Khoa Công nghệ Thông tin và các Khoa liên quan."
+      ]
+    },
+    {
+      "tag": "cntt_dao_tao_ky_nang_mem",
+      "patterns": [
+        "kỹ năng mềm cho dân IT?",
+        "học kỹ năng mềm ở đâu?"
+      ],
+      "responses": [
+        "Bên cạnh kiến thức chuyên môn, chương trình đào tạo CNTT tại DAU cũng chú trọng trang bị các kỹ năng mềm cần thiết cho sinh viên như kỹ năng giao tiếp, thuyết trình, làm việc nhóm hiệu quả, giải quyết vấn đề và tư duy phản biện. Các kỹ năng này có thể được lồng ghép trong các môn học chuyên ngành, đồ án hoặc qua các hoạt động ngoại khóa, workshop do trường/khoa tổ chức."
+      ]
+    },
+    {
+      "tag": "cntt_dao_duc_nghe_nghiep",
+      "patterns": [
+        "đạo đức nghề nghiệp IT?",
+        "trách nhiệm của lập trình viên?"
+      ],
+      "responses": [
+        "Nhận thức về đạo đức nghề nghiệp, trách nhiệm xã hội và các vấn đề pháp lý liên quan đến lĩnh vực CNTT là một phần quan trọng trong đào tạo. Chương trình học có thể bao gồm các nội dung hoặc học phần riêng về đạo đức nghề nghiệp, giúp sinh viên hiểu rõ và hành xử phù hợp, có trách nhiệm trong công việc sau này."
+      ]
+    },
+    {
+      "tag": "cntt_tieng_anh_chuyen_nganh",
+      "patterns": [
+        "tiếng Anh chuyên ngành IT?",
+        "học tiếng Anh cho CNTT?"
+      ],
+      "responses": [
+        "Khả năng sử dụng tiếng Anh, đặc biệt là tiếng Anh chuyên ngành CNTT, là rất quan trọng. Chương trình học có thể bao gồm các học phần tiếng Anh chuyên ngành hoặc yêu cầu sinh viên sử dụng tài liệu tiếng Anh. Nhà trường cũng khuyến khích sinh viên tự trau dồi khả năng ngoại ngữ để đọc hiểu tài liệu, cập nhật công nghệ và mở rộng cơ hội nghề nghiệp."
+      ]
+    },
+    {
+      "tag": "kientruc_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành kiến trúc?",
+        "học kiến trúc ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Kiến trúc tại DAU là trang bị cho sinh viên kiến thức nền tảng và chuyên sâu về lý thuyết, lịch sử kiến trúc, kỹ năng thiết kế sáng tạo, thể hiện đồ án (vẽ tay, vẽ máy, làm mô hình), hiểu biết về kỹ thuật công trình và vật liệu xây dựng, nhằm đào tạo ra các Kiến trúc sư có năng lực hành nghề, đáp ứng nhu cầu xã hội và có khả năng thích ứng với môi trường làm việc đa dạng. Chuẩn đầu ra chi tiết có trong chương trình đào tạo trên website Khoa Kiến trúc/Trang tuyển sinh."
+      ]
+    },
+    {
+      "tag": "kientruc_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học kiến trúc?",
+        "ngành kiến trúc học gì?"
+      ],
+      "responses": [
+        "Chương trình đào tạo ngành Kiến trúc (thường kéo dài 5 năm) tại DAU bao gồm các học phần cốt lõi như: Đồ án Thiết kế Kiến trúc (nhiều cấp độ, là trọng tâm), Lịch sử Kiến trúc, Lý thuyết Kiến trúc, Kết cấu công trình, Vật liệu xây dựng, Kỹ thuật thể hiện (Vẽ kỹ thuật, Vẽ mỹ thuật), Tin học ứng dụng trong Kiến trúc (CAD, 3D modeling), Nguyên lý thiết kế đô thị... Khung chương trình chi tiết theo từng học kỳ bạn có thể xem trên website Khoa Kiến trúc hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "kientruc_chuyen_nganh_hep",
+      "patterns": [
+        "kiến trúc có chuyên ngành nào?",
+        "hướng chuyên sâu kiến trúc?"
+      ],
+      "responses": [
+        "Ngành Kiến trúc tại DAU chủ yếu tập trung đào tạo kiến trúc sư thiết kế công trình. Tuy nhiên, trong quá trình học hoặc qua các môn tự chọn/đồ án, sinh viên có thể định hướng sâu hơn vào các lĩnh vực như Kiến trúc công trình công cộng, Kiến trúc nhà ở, có thể liên quan đến Quy hoạch đô thị, Thiết kế Nội thất, Kiến trúc Cảnh quan hoặc Kiến trúc Bền vững (Kiến trúc xanh). Bạn nên tham khảo chương trình đào tạo cụ thể để biết các định hướng được nhấn mạnh."
+      ]
+    },
+    {
+      "tag": "kientruc_giang_vien",
+      "patterns": [
+        "giảng viên ngành kiến trúc?",
+        "ai dạy kiến trúc?"
+      ],
+      "responses": [
+        "Khoa Kiến trúc tại DAU có đội ngũ giảng viên là các Kiến trúc sư (KTS), các nhà nghiên cứu có trình độ Thạc sĩ, Tiến sĩ, Phó Giáo sư với kinh nghiệm giảng dạy, nghiên cứu và thực hành nghề phong phú. Nhiều giảng viên đồng thời là kiến trúc sư hành nghề. Thông tin chi tiết về giảng viên có thể tìm thấy trên website của Khoa Kiến trúc (nếu có)."
+      ]
+    },
+    {
+      "tag": "kientruc_xuong_thuc_hanh_studio",
+      "patterns": [
+        "xưởng thực hành kiến trúc?",
+        "studio thiết kế?"
+      ],
+      "responses": [
+        "Môi trường học tập ngành Kiến trúc gắn liền với không gian xưởng (studio) thiết kế, nơi sinh viên thực hiện các đồ án. DAU đầu tư các phòng học studio, họa thất, xưởng làm mô hình với các trang thiết bị cần thiết (bàn vẽ, máy cắt, máy in...). Đây là không gian học tập, trao đổi và sáng tạo chính của sinh viên kiến trúc."
+      ]
+    },
+    {
+      "tag": "kientruc_ky_nang_dat_duoc",
+      "patterns": [
+        "học kiến trúc xong có kỹ năng gì?",
+        "kỹ năng ngành kiến trúc?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Kiến trúc tại DAU, sinh viên dự kiến sẽ thành thạo các kỹ năng cốt lõi: tư duy thiết kế sáng tạo, phân tích bối cảnh và nhu cầu, thể hiện ý tưởng bằng bản vẽ (tay và máy), làm mô hình, sử dụng các phần mềm chuyên dụng (AutoCAD, Revit, SketchUp, phần mềm diễn họa...), kỹ năng thuyết trình và bảo vệ đồ án, làm việc nhóm, hiểu biết về kỹ thuật và vật liệu xây dựng."
+      ]
+    },
+    {
+      "tag": "kientruc_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm kiến trúc?",
+        "học kiến trúc ra làm gì?"
+      ],
+      "responses": [
+        "Sinh viên tốt nghiệp ngành Kiến trúc có thể làm việc tại các văn phòng, công ty tư vấn thiết kế kiến trúc, công ty xây dựng, các cơ quan quản lý nhà nước về xây dựng và quy hoạch, các viện nghiên cứu, hoặc giảng dạy tại các cơ sở đào tạo. Các vị trí công việc bao gồm: Kiến trúc sư thiết kế, Kiến trúc sư triển khai kỹ thuật, Quản lý dự án, Chuyên viên tư vấn, Giảng viên/Nghiên cứu viên..."
+      ]
+    },
+    {
+      "tag": "kientruc_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn kiến trúc?",
+        "xét tuyển ngành kiến trúc?"
+      ],
+      "responses": [
+        "Điểm chuẩn ngành Kiến trúc thay đổi hàng năm. Điểm đặc biệt là ngành này **bắt buộc** xét tuyển các tổ hợp có môn Năng khiếu Vẽ (Vẽ Mỹ thuật hoặc Vẽ Hình họa) do trường tổ chức thi hoặc lấy kết quả từ trường khác được công nhận. Các tổ hợp phổ biến là V00 (Toán, Lý, Vẽ), V01 (Toán, Văn, Vẽ), V02 (Toán, Anh, Vẽ)... Bạn cần theo dõi thông báo tuyển sinh chính thức và quy chế thi năng khiếu hàng năm trên trang https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "kientruc_cau_lac_bo",
+      "patterns": [
+        "câu lạc bộ kiến trúc?",
+        "CLB thiết kế?"
+      ],
+      "responses": [
+        "Khoa Kiến trúc hoặc Đoàn - Hội trường có thể có các Câu lạc bộ học thuật và sở thích dành cho sinh viên kiến trúc như: CLB Thiết kế, CLB Ký họa (Sketching), CLB Làm mô hình, CLB Nhiếp ảnh kiến trúc, CLB Kiến trúc xanh... Tham gia CLB giúp sinh viên trau dồi kỹ năng, mở rộng mạng lưới và có thêm trải nghiệm thực tế."
+      ]
+    },
+    {
+      "tag": "kientruc_thuc_tap_van_phong",
+      "patterns": [
+        "thực tập ngành kiến trúc?",
+        "thực tập ở văn phòng KTS?"
+      ],
+      "responses": [
+        "Sinh viên ngành Kiến trúc thường có các đợt thực tập nhận thức hoặc thực tập tốt nghiệp tại các văn phòng tư vấn thiết kế kiến trúc, công ty xây dựng hoặc các đơn vị liên quan. Khoa Kiến trúc có thể có liên kết với các doanh nghiệp, văn phòng kiến trúc tại địa phương để giới thiệu và tạo điều kiện cho sinh viên đi thực tập, tiếp xúc với môi trường làm việc thực tế."
+      ]
+    },
+    {
+      "tag": "kientruc_phan_mem_cong_nghe",
+      "patterns": [
+        "phần mềm ngành kiến trúc?",
+        "học AutoCAD Revit?"
+      ],
+      "responses": [
+        "Sinh viên Kiến trúc tại DAU được đào tạo sử dụng các phần mềm chuyên dụng phổ biến như: AutoCAD (triển khai bản vẽ kỹ thuật), Revit (mô hình thông tin công trình - BIM), SketchUp, 3ds Max (dựng hình 3D), các phần mềm diễn họa (V-Ray, Lumion, Enscape...) và các phần mềm đồ họa hỗ trợ (Adobe Photoshop, Illustrator, InDesign). Mức độ chuyên sâu tùy thuộc vào chương trình và định hướng của Khoa."
+      ]
+    },
+    {
+      "tag": "kientruc_do_an_studio",
+      "patterns": [
+        "đồ án studio kiến trúc?",
+        "làm đồ án thiết kế?"
+      ],
+      "responses": [
+        "Học phần Đồ án Thiết kế Kiến trúc (Studio) là cốt lõi của chương trình, chiếm thời lượng lớn. Sinh viên sẽ thực hiện các dự án thiết kế với độ phức tạp tăng dần (nhà ở, công trình công cộng nhỏ đến lớn...). Quá trình làm đồ án bao gồm nghiên cứu, lên ý tưởng, phát triển thiết kế, thể hiện bản vẽ, làm mô hình và bảo vệ phương án trước giảng viên và hội đồng (critique/jury). Đây là quá trình rèn luyện tư duy và kỹ năng tổng hợp quan trọng nhất."
+      ]
+    },
+    {
+      "tag": "kientruc_do_an_tot_nghiep",
+      "patterns": [
+        "đồ án tốt nghiệp kiến trúc?",
+        "khóa luận ngành kiến trúc?"
+      ],
+      "responses": [
+        "Đồ án tốt nghiệp ngành Kiến trúc là một dự án thiết kế hoàn chỉnh, thể hiện toàn bộ năng lực tổng hợp của sinh viên sau quá trình đào tạo. Sinh viên tự chọn hoặc nhận đề tài, thực hiện dưới sự hướng dẫn của giảng viên và bảo vệ trước Hội đồng tốt nghiệp. Sản phẩm bao gồm bộ bản vẽ chi tiết, mô hình, thuyết minh và bài trình bày. Đây là tác phẩm quan trọng nhất trong hồ sơ năng lực (portfolio) của sinh viên khi ra trường."
+      ]
+    },
+    {
+      "tag": "kientruc_nghien_cuu_khoa_hoc",
+      "patterns": [
+        "nghiên cứu khoa học kiến trúc?",
+        "hướng nghiên cứu ngành kiến trúc?"
+      ],
+      "responses": [
+        "Giảng viên Khoa Kiến trúc có thể thực hiện các nghiên cứu về Lịch sử và Lý luận phê bình kiến trúc, Kiến trúc Bền vững (Kiến trúc xanh), Vật liệu và Công nghệ xây dựng mới, Bảo tồn di sản, Thiết kế đô thị, ứng dụng công nghệ trong kiến trúc... Sinh viên yêu thích nghiên cứu có thể liên hệ giảng viên để tìm hiểu và tham gia các đề tài NCKH hoặc các dự án nghiên cứu của Khoa."
+      ]
+    },
+    {
+      "tag": "kientruc_cuoc_thi_thiet_ke",
+      "patterns": [
+        "cuộc thi thiết kế kiến trúc?",
+        "tham gia giải Loa Thành?"
+      ],
+      "responses": [
+        "Sinh viên kiến trúc DAU được khuyến khích tham gia các cuộc thi thiết kế ý tưởng kiến trúc, quy hoạch dành cho sinh viên trong nước và quốc tế (như giải thưởng Loa Thành, các cuộc thi do Hội KTS Việt Nam hoặc các tổ chức khác phát động), các trại sáng tác, workshop thiết kế. Đây là cơ hội để thử sức, học hỏi và xây dựng portfolio."
+      ]
+    },
+    {
+      "tag": "kientruc_chung_chi_hanh_nghe",
+      "patterns": [
+        "chứng chỉ hành nghề KTS?",
+        "thi chứng chỉ kiến trúc sư?"
+      ],
+      "responses": [
+        "Để trở thành Kiến trúc sư hành nghề hợp pháp tại Việt Nam, sau khi tốt nghiệp đại học, bạn cần tích lũy kinh nghiệm thực tế (thường là vài năm) và vượt qua kỳ thi sát hạch cấp Chứng chỉ hành nghề Kiến trúc sư do Hội Kiến trúc sư Việt Nam hoặc Sở Xây dựng tổ chức theo quy định của Luật Kiến trúc và Bộ Xây dựng. Chương trình đại học cung cấp nền tảng kiến thức cho việc này."
+      ]
+    },
+    {
+      "tag": "kientruc_diem_manh_dau",
+      "patterns": [
+        "điểm mạnh ngành kiến trúc DAU?",
+        "thế mạnh kiến trúc tại DAU?"
+      ],
+      "responses": [
+        "Thế mạnh của ngành Kiến trúc tại DAU nằm ở chính tên gọi và định hướng của trường, tập trung sâu vào lĩnh vực này. Chương trình có thể nhấn mạnh vào văn hóa kiến trúc khu vực Miền Trung, chú trọng thực hành thông qua hệ thống đồ án studio, và có sự liên kết với các ngành khác trong trường như Xây dựng, Quy hoạch, Nội thất, tạo môi trường học tập đa ngành."
+      ]
+    },
+    {
+      "tag": "kientruc_hoat_dong_khoa",
+      "patterns": [
+        "hoạt động khoa kiến trúc?",
+        "sự kiện ngành kiến trúc?"
+      ],
+      "responses": [
+        "Khoa Kiến trúc thường tổ chức nhiều hoạt động chuyên môn và ngoại khóa phong phú như: mời các Kiến trúc sư có kinh nghiệm/nổi tiếng về nói chuyện (talkshow, guest lecture), tổ chức workshop về kỹ năng (vẽ, làm mô hình, phần mềm), triển lãm đồ án sinh viên, các chuyến đi tham quan thực tế công trình kiến trúc hoặc di sản... Bạn nên theo dõi thông tin từ Khoa để tham gia."
+      ]
+    },
+    {
+      "tag": "kientruc_du_an_lien_nganh",
+      "patterns": [
+        "dự án kiến trúc liên ngành?",
+        "kết hợp kiến trúc với xây dựng?"
+      ],
+      "responses": [
+        "Sinh viên Kiến trúc tại DAU có cơ hội làm việc trong môi trường đa ngành, phối hợp với sinh viên các ngành Xây dựng (kết cấu, thi công), Quy hoạch, Thiết kế Nội thất, Thiết kế Đồ họa... trong một số đồ án hoặc dự án chung, mô phỏng môi trường làm việc thực tế và phát huy thế mạnh tổng hợp của trường."
+      ]
+    },
+    {
+      "tag": "kientruc_ky_nang_mem",
+      "patterns": [
+        "kỹ năng mềm ngành kiến trúc?",
+        "học thuyết trình đồ án?"
+      ],
+      "responses": [
+        "Ngành Kiến trúc đòi hỏi rất cao về kỹ năng mềm. Sinh viên tại DAU được rèn luyện thông qua các buổi bảo vệ đồ án (thuyết trình, phản biện), làm việc nhóm trong các đồ án studio, quản lý thời gian để hoàn thành khối lượng công việc lớn. Kỹ năng giao tiếp với giảng viên, bạn bè và sau này là khách hàng, nhà thầu cũng rất quan trọng."
+      ]
+    },
+    {
+      "tag": "kientruc_dao_duc_nghe_nghiep",
+      "patterns": [
+        "đạo đức nghề nghiệp KTS?",
+        "trách nhiệm của kiến trúc sư?"
+      ],
+      "responses": [
+        "Đào tạo Kiến trúc sư tại DAU gắn liền với việc giáo dục đạo đức nghề nghiệp, bao gồm trách nhiệm của KTS với xã hội, môi trường, an toàn công trình, tôn trọng khách hàng và đồng nghiệp, vấn đề bản quyền thiết kế. Các nội dung này có thể được đề cập trong các môn học lý thuyết hoặc qua các tình huống thực tế trong đồ án."
+      ]
+    },
+    {
+      "tag": "kientruc_tieng_anh_chuyen_nganh",
+      "patterns": [
+        "tiếng Anh chuyên ngành kiến trúc?",
+        "học tiếng Anh cho KTS?"
+      ],
+      "responses": [
+        "Tiếng Anh chuyên ngành rất cần thiết cho sinh viên Kiến trúc để đọc hiểu sách, tạp chí quốc tế, cập nhật xu hướng thiết kế và công nghệ mới, cũng như giao tiếp trong môi trường làm việc toàn cầu hóa. Chương trình học có thể có các học phần tiếng Anh chuyên ngành hoặc khuyến khích sinh viên tự học và sử dụng tài liệu tiếng Anh."
+      ]
+    },
+    {
+      "tag": "ngoaingu_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành ngôn ngữ?",
+        "học ngoại ngữ ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo các ngành Ngôn ngữ (Anh, Nhật, Hàn) tại DAU là giúp sinh viên sử dụng thành thạo ngoại ngữ đã chọn (nghe, nói, đọc, viết) ở trình độ cao, có kiến thức nền tảng về ngôn ngữ học, văn hóa - xã hội của các nước sử dụng ngôn ngữ đó, và có kỹ năng ứng dụng ngôn ngữ vào các lĩnh vực nghề nghiệp cụ thể như biên phiên dịch, giảng dạy, kinh doanh, du lịch... Chuẩn đầu ra chi tiết có trong chương trình đào tạo của Khoa Ngoại ngữ/Trang tuyển sinh."
+      ]
+    },
+    {
+      "tag": "ngoaingu_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học ngôn ngữ?",
+        "ngành ngôn ngữ học gì?"
+      ],
+      "responses": [
+        "Chương trình các ngành Ngôn ngữ tại DAU tập trung phát triển toàn diện 4 kỹ năng (Nghe, Nói, Đọc, Viết) thông qua các học phần Thực hành tiếng. Bên cạnh đó là các môn về Ngữ âm, Ngữ pháp, Từ vựng, Đất nước học, Văn hóa, Văn học, Ngôn ngữ học đại cương, và các môn chuyên sâu như Lý thuyết dịch, Thực hành Biên/Phiên dịch, Tiếng Anh/Nhật/Hàn thương mại, Phương pháp giảng dạy... Khung chương trình chi tiết bạn có thể xem trên website Khoa Ngoại ngữ hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "ngoaingu_chuyen_nganh_hep",
+      "patterns": [
+        "ngôn ngữ có chuyên ngành nào?",
+        "hướng chuyên sâu ngoại ngữ?"
+      ],
+      "responses": [
+        "Các ngành Ngôn ngữ tại DAU có thể có các định hướng chuyên sâu vào cuối khóa học như: Biên phiên dịch, Tiếng Anh/Nhật/Hàn Thương mại, hoặc Phương pháp giảng dạy (nếu có đào tạo sư phạm). Sinh viên có thể lựa chọn các môn học tự chọn hoặc thực hiện khóa luận/thực tập theo định hướng mình mong muốn. Bạn nên tham khảo chương trình đào tạo chính thức để biết các hướng chuyên sâu cụ thể được cung cấp."
+      ]
+    },
+    {
+      "tag": "ngoaingu_giang_vien",
+      "patterns": [
+        "giảng viên ngành ngôn ngữ?",
+        "ai dạy ngoại ngữ?"
+      ],
+      "responses": [
+        "Khoa Ngoại ngữ (hoặc đơn vị phụ trách) tại DAU có đội ngũ giảng viên trình độ Thạc sĩ, Tiến sĩ chuyên ngành ngôn ngữ tương ứng, Ngôn ngữ học, Phương pháp giảng dạy tiếng... giàu kinh nghiệm. Trường cũng có thể mời giảng viên là người bản xứ tham gia giảng dạy để nâng cao khả năng giao tiếp thực tế cho sinh viên. Thông tin giảng viên có thể tham khảo trên website Khoa/Trường."
+      ]
+    },
+    {
+      "tag": "ngoaingu_phong_thuc_hanh",
+      "patterns": [
+        "phòng thực hành ngôn ngữ?",
+        "phòng lab ngoại ngữ?"
+      ],
+      "responses": [
+        "Để hỗ trợ việc học ngoại ngữ, trường trang bị các phòng học chuyên dụng như phòng Lab ngôn ngữ, phòng học Multimedia với tai nghe, máy chiếu, phần mềm học tiếng... giúp sinh viên luyện nghe, nói và thực hành hiệu quả. Sinh viên cũng được khuyến khích sử dụng các tài nguyên tự học tại thư viện hoặc các phòng chức năng."
+      ]
+    },
+    {
+      "tag": "ngoaingu_ky_nang_dat_duoc",
+      "patterns": [
+        "học ngoại ngữ xong có kỹ năng gì?",
+        "kỹ năng ngành ngôn ngữ?"
+      ],
+      "responses": [
+        "Sau khi tốt nghiệp các ngành Ngôn ngữ tại DAU, sinh viên sẽ đạt được trình độ ngoại ngữ thành thạo (tương đương bậc 5/6 theo Khung năng lực ngoại ngữ 6 bậc của Việt Nam hoặc các chuẩn quốc tế tương đương), có kỹ năng biên phiên dịch cơ bản, kỹ năng giao tiếp liên văn hóa hiệu quả, kỹ năng thuyết trình, làm việc độc lập và làm việc nhóm."
+      ]
+    },
+    {
+      "tag": "ngoaingu_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm ngoại ngữ?",
+        "học ngôn ngữ ra làm gì?"
+      ],
+      "responses": [
+        "Sinh viên tốt nghiệp ngành Ngôn ngữ có cơ hội việc làm đa dạng: Biên dịch viên, Phiên dịch viên tại các công ty, tổ chức; Giáo viên ngoại ngữ tại các trường học, trung tâm; Chuyên viên đối ngoại, hợp tác quốc tế; Nhân viên văn phòng, trợ lý, thư ký cho các công ty có yếu tố nước ngoài; Nhân viên trong ngành du lịch, khách sạn, nhà hàng; hoặc làm việc trong các lĩnh vực truyền thông, xuất bản..."
+      ]
+    },
+    {
+      "tag": "ngoaingu_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngôn ngữ?",
+        "xét tuyển ngành ngoại ngữ?"
+      ],
+      "responses": [
+        "Điểm chuẩn các ngành Ngôn ngữ (Anh, Nhật, Hàn) thay đổi hàng năm. Các ngành này thường xét tuyển các tổ hợp khối D (ví dụ: D01 - Toán, Văn, Anh cho Ngôn ngữ Anh; D06 - Toán, Văn, Nhật cho Ngôn ngữ Nhật; DD2 - Toán, Văn, Hàn cho Ngôn ngữ Hàn...). Một số trường có thể áp dụng nhân đôi điểm môn Ngoại ngữ. Bạn cần theo dõi thông báo tuyển sinh chính thức hàng năm trên trang https://tuyensinh.dau.edu.vn/ để biết tổ hợp, điểm chuẩn và quy định chính xác."
+      ]
+    },
+    {
+      "tag": "ngoaingu_cau_lac_bo",
+      "patterns": [
+        "câu lạc bộ ngoại ngữ?",
+        "CLB tiếng Anh/Nhật/Hàn?"
+      ],
+      "responses": [
+        "Tại DAU có thể có các Câu lạc bộ Tiếng Anh, Tiếng Nhật, Tiếng Hàn do sinh viên tự thành lập hoặc dưới sự bảo trợ của Khoa/Đoàn Thanh niên. Đây là nơi sinh viên thực hành giao tiếp, tìm hiểu văn hóa, tham gia các hoạt động ngoại khóa, cuộc thi... liên quan đến ngôn ngữ mình học. Bạn có thể tìm hiểu thông tin khi nhập học hoặc qua các kênh của Khoa/Đoàn - Hội."
+      ]
+    },
+    {
+      "tag": "ngoaingu_thuc_tap_doanh_nghiep",
+      "patterns": [
+        "thực tập ngành ngôn ngữ?",
+        "thực tập ở trung tâm ngoại ngữ?"
+      ],
+      "responses": [
+        "Sinh viên các ngành Ngôn ngữ có thể có các đợt thực tập hoặc kiến tập tại các môi trường làm việc thực tế như: trung tâm ngoại ngữ, công ty dịch thuật, phòng đối ngoại của doanh nghiệp, các công ty du lịch, khách sạn... Khoa Ngoại ngữ có thể hỗ trợ giới thiệu hoặc sinh viên cần chủ động tìm kiếm cơ hội thực tập phù hợp với định hướng nghề nghiệp."
+      ]
+    },
+    {
+      "tag": "ngoaingu_cong_nghe_giang_day",
+      "patterns": [
+        "công nghệ dạy ngoại ngữ?",
+        "phần mềm học tiếng?"
+      ],
+      "responses": [
+        "Việc giảng dạy ngoại ngữ tại DAU ứng dụng các công nghệ hỗ trợ như phần mềm học tiếng, hệ thống quản lý học tập trực tuyến (LMS), các tài nguyên multimedia (video, audio), website học tập... để tăng cường tính tương tác và hiệu quả học tập, đặc biệt là kỹ năng nghe và phát âm."
+      ]
+    },
+    {
+      "tag": "ngoaingu_do_an_khoa_luan",
+      "patterns": [
+        "khóa luận ngành ngôn ngữ?",
+        "đồ án tốt nghiệp ngoại ngữ?"
+      ],
+      "responses": [
+        "Cuối khóa học, sinh viên ngành Ngôn ngữ thường thực hiện Khóa luận tốt nghiệp (một công trình nghiên cứu nhỏ về ngôn ngữ học, văn hóa, phương pháp giảng dạy...) hoặc các Chuyên đề/Dự án dịch thuật, hoặc tham gia Kỳ thi tốt nghiệp tổng hợp kiến thức và kỹ năng. Hình thức cụ thể tùy thuộc vào quy định của Khoa và lựa chọn của sinh viên."
+      ]
+    },
+    {
+      "tag": "ngoaingu_nghien_cuu_khoa_hoc",
+      "patterns": [
+        "nghiên cứu khoa học ngoại ngữ?",
+        "NCKH ngôn ngữ học?"
+      ],
+      "responses": [
+        "Giảng viên và sinh viên Khoa Ngoại ngữ có thể tham gia nghiên cứu khoa học về các lĩnh vực như Ngôn ngữ học ứng dụng, Nghiên cứu văn hóa - văn học các nước, Lý thuyết và thực hành dịch thuật, Phương pháp giảng dạy ngoại ngữ... Sinh viên có thể tham gia các đề tài NCKH cấp Khoa, cấp Trường hoặc các hội thảo khoa học."
+      ]
+    },
+    {
+      "tag": "ngoaingu_cuoc_thi",
+      "patterns": [
+        "cuộc thi hùng biện?",
+        "cuộc thi ngoại ngữ?"
+      ],
+      "responses": [
+        "Khoa Ngoại ngữ hoặc các CLB có thể tổ chức các cuộc thi học thuật và tài năng như: Hùng biện tiếng Anh/Nhật/Hàn, Viết luận, Dịch thuật, Tìm hiểu văn hóa... hoặc cử sinh viên tham gia các cuộc thi cấp thành phố, quốc gia. Đây là sân chơi để sinh viên thể hiện năng lực và giao lưu học hỏi."
+      ]
+    },
+    {
+      "tag": "ngoaingu_chung_chi_quoc_te",
+      "patterns": [
+        "thi IELTS/TOEIC/JLPT/TOPIK?",
+        "chuẩn đầu ra ngoại ngữ?"
+      ],
+      "responses": [
+        "Chương trình đào tạo thường hướng tới việc giúp sinh viên đạt được trình độ tương đương với các chứng chỉ ngoại ngữ quốc tế phổ biến như IELTS/TOEFL/TOEIC đối với tiếng Anh, JLPT đối với tiếng Nhật, TOPIK đối với tiếng Hàn. Việc có các chứng chỉ này là lợi thế lớn khi xin việc. Trường có thể yêu cầu chuẩn đầu ra tương đương hoặc khuyến khích sinh viên thi lấy chứng chỉ. Thông tin về các khóa luyện thi (nếu có) cần tìm hiểu thêm."
+      ]
+    },
+    {
+      "tag": "ngoaingu_diem_khac_biet_dau",
+      "patterns": [
+        "điểm khác biệt ngành ngoại ngữ DAU?",
+        "thế mạnh ngôn ngữ tại DAU?"
+      ],
+      "responses": [
+        "Học ngoại ngữ tại DAU, Đà Nẵng - một trung tâm du lịch và kinh tế năng động - mang lại lợi thế về môi trường thực hành giao tiếp. Chương trình có thể chú trọng tính ứng dụng ngôn ngữ vào các lĩnh vực đang phát triển tại địa phương như du lịch, dịch vụ, thương mại, hoặc liên kết với các ngành thế mạnh khác của trường. Bạn nên tìm hiểu kỹ về định hướng ứng dụng của chương trình."
+      ]
+    },
+    {
+      "tag": "ngoaingu_hoat_dong_khoa",
+      "patterns": [
+        "hoạt động khoa ngoại ngữ?",
+        "sự kiện ngành ngôn ngữ?"
+      ],
+      "responses": [
+        "Khoa Ngoại ngữ thường tổ chức các hoạt động đa dạng để làm phong phú trải nghiệm học tập như: Ngày hội ngôn ngữ và văn hóa, mời diễn giả/người bản xứ/cựu sinh viên về chia sẻ, các buổi giao lưu văn hóa, các hoạt động ngoại khóa rèn luyện kỹ năng... Thông tin sự kiện thường được cập nhật trên các kênh của Khoa."
+      ]
+    },
+    {
+      "tag": "ngoaingu_ky_nang_mem",
+      "patterns": [
+        "kỹ năng mềm ngành ngôn ngữ?",
+        "giao tiếp liên văn hóa?"
+      ],
+      "responses": [
+        "Học ngoại ngữ không chỉ là học ngôn ngữ mà còn là học cách giao tiếp hiệu quả trong môi trường đa văn hóa. Sinh viên ngành Ngôn ngữ tại DAU được rèn luyện các kỹ năng mềm quan trọng như giao tiếp liên văn hóa, thuyết trình bằng ngoại ngữ, làm việc nhóm với các thành viên có nền tảng khác nhau, tư duy phản biện và sự nhạy bén về văn hóa."
+      ]
+    },
+    {
+      "tag": "ngoaingu_dao_duc_nghe_nghiep",
+      "patterns": [
+        "đạo đức biên phiên dịch?",
+        "đạo đức nghề giáo viên ngoại ngữ?"
+      ],
+      "responses": [
+        "Đạo đức nghề nghiệp là yếu tố quan trọng đối với người làm việc trong lĩnh vực ngôn ngữ. Chương trình đào tạo có thể đề cập đến các chuẩn mực đạo đức trong biên phiên dịch (tính bảo mật, chính xác, khách quan), đạo đức nhà giáo (đối với định hướng giảng dạy), và sự tôn trọng, chuyên nghiệp trong giao tiếp và làm việc."
+      ]
+    },
+    {
+      "tag": "tkdh_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành thiết kế đồ họa?",
+        "học TKĐH ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Thiết kế Đồ họa tại DAU là trang bị cho sinh viên kiến thức nền tảng về mỹ thuật, tư duy thiết kế sáng tạo, và kỹ năng sử dụng thành thạo các công cụ phần mềm để tạo ra các sản phẩm truyền thông thị giác hiệu quả (như logo, bộ nhận diện thương hiệu, ấn phẩm quảng cáo, bao bì, giao diện web/app...). Chương trình nhằm đào tạo các nhà thiết kế đồ họa có năng lực chuyên môn, thẩm mỹ tốt và khả năng thích ứng với ngành công nghiệp sáng tạo. Chuẩn đầu ra chi tiết có trong chương trình đào tạo của Khoa Mỹ thuật Ứng dụng (hoặc đơn vị phụ trách) / Trang tuyển sinh."
+      ]
+    },
+    {
+      "tag": "tkdh_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học TKĐH?",
+        "ngành thiết kế đồ họa học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Thiết kế Đồ họa bao gồm các môn cơ sở mỹ thuật (Hình họa, Trang trí, Bố cục), các môn lý thuyết chuyên ngành (Nguyên lý thị giác, Lịch sử mỹ thuật/thiết kế, Typography, Màu sắc...), và các môn thực hành thiết kế với độ phức tạp tăng dần (Thiết kế Logo, Nhận diện thương hiệu, Bao bì, Dàn trang sách/báo, Thiết kế Web/App cơ bản, Illustration, Nhiếp ảnh...). Khung chương trình chi tiết bạn có thể tham khảo trên website Khoa Mỹ thuật Ứng dụng hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "tkdh_chuyen_nganh_hep",
+      "patterns": [
+        "TKĐH có chuyên ngành nào?",
+        "hướng chuyên sâu đồ họa?"
+      ],
+      "responses": [
+        "Ngành Thiết kế Đồ họa thường bao gồm nhiều lĩnh vực ứng dụng. Chương trình tại DAU có thể cho phép sinh viên định hướng sâu hơn vào các mảng như Thiết kế nhận diện thương hiệu, Thiết kế quảng cáo, Thiết kế bao bì, Thiết kế dàn trang và xuất bản, hoặc các yếu tố của Thiết kế đa phương tiện, Thiết kế giao diện người dùng (UI/UX) cơ bản thông qua các đồ án hoặc môn học tự chọn. Bạn nên xem xét kỹ chương trình đào tạo để biết các định hướng cụ thể."
+      ]
+    },
+    {
+      "tag": "tkdh_giang_vien",
+      "patterns": [
+        "giảng viên ngành TKĐH?",
+        "ai dạy thiết kế đồ họa?"
+      ],
+      "responses": [
+        "Đội ngũ giảng viên ngành Thiết kế Đồ họa tại DAU bao gồm các họa sĩ, nhà thiết kế có kinh nghiệm thực tế trong ngành, cùng các giảng viên có trình độ Thạc sĩ, Tiến sĩ về Mỹ thuật, Thiết kế. Sự kết hợp giữa lý thuyết và kinh nghiệm thực chiến từ giảng viên giúp sinh viên có cái nhìn toàn diện về ngành. Thông tin giảng viên có thể tìm thấy trên website Khoa Mỹ thuật Ứng dụng (hoặc đơn vị phụ trách)."
+      ]
+    },
+    {
+      "tag": "tkdh_phong_thuc_hanh_studio",
+      "patterns": [
+        "phòng thực hành TKĐH?",
+        "studio đồ họa?"
+      ],
+      "responses": [
+        "Sinh viên Thiết kế Đồ họa cần môi trường thực hành với máy tính cấu hình mạnh, cài đặt các phần mềm chuyên dụng (thường là bộ Adobe). Trường trang bị các phòng máy tính (PC/Mac), bảng vẽ điện tử (Wacom), máy in màu chất lượng tốt, và có thể có studio nhiếp ảnh cơ bản để phục vụ các môn học liên quan. Không gian học tập thường được thiết kế như các studio sáng tạo."
+      ]
+    },
+    {
+      "tag": "tkdh_ky_nang_dat_duoc",
+      "patterns": [
+        "học TKĐH xong có kỹ năng gì?",
+        "kỹ năng ngành đồ họa?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Thiết kế Đồ họa, sinh viên sẽ có khả năng: tư duy sáng tạo và giải quyết vấn đề bằng hình ảnh, nắm vững các nguyên lý thiết kế, có gu thẩm mỹ tốt, sử dụng thành thạo các phần mềm thiết kế chủ đạo (Adobe Photoshop, Illustrator, InDesign...), kỹ năng về typography, màu sắc, bố cục, có thể có thêm kỹ năng về nhiếp ảnh, illustration, thiết kế web/app cơ bản, và kỹ năng trình bày ý tưởng."
+      ]
+    },
+    {
+      "tag": "tkdh_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm TKĐH?",
+        "học đồ họa ra làm gì?"
+      ],
+      "responses": [
+        "Cơ hội việc làm cho ngành Thiết kế Đồ họa rất đa dạng. Sinh viên tốt nghiệp có thể làm việc tại các công ty quảng cáo (Agency), công ty truyền thông, bộ phận marketing của doanh nghiệp, các công ty thiết kế chuyên nghiệp, nhà xuất bản, công ty in ấn, đài truyền hình, hoặc làm việc tự do (freelancer). Các vị trí có thể là Graphic Designer, Art Director (sau kinh nghiệm), UI/UX Designer (nếu có định hướng), Illustrator..."
+      ]
+    },
+    {
+      "tag": "tkdh_diem_chuan_xet_tuyen_nang_khieu",
+      "patterns": [
+        "điểm chuẩn TKĐH?",
+        "xét tuyển ngành đồ họa?"
+      ],
+      "responses": [
+        "Điểm chuẩn ngành Thiết kế Đồ họa thay đổi hàng năm. Ngành này **bắt buộc** xét tuyển các tổ hợp có môn Năng khiếu Mỹ thuật (thường là Vẽ Mỹ thuật tĩnh vật, Bố cục màu/Trang trí màu) do trường tổ chức thi hoặc lấy kết quả từ trường khác được công nhận. Các tổ hợp phổ biến là H00 (Văn, Năng khiếu 1, Năng khiếu 2), H01 (Toán, Văn, Vẽ Mỹ thuật)... Bạn cần theo dõi thông báo tuyển sinh chính thức và quy chế thi năng khiếu hàng năm trên trang https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "tkdh_cau_lac_bo",
+      "patterns": [
+        "câu lạc bộ TKĐH?",
+        "CLB thiết kế đồ họa?"
+      ],
+      "responses": [
+        "Trường hoặc Khoa Mỹ thuật Ứng dụng có thể có các Câu lạc bộ dành cho sinh viên Thiết kế Đồ họa và các ngành mỹ thuật khác như CLB Thiết kế, CLB Nhiếp ảnh, CLB Mỹ thuật, Multimedia... Tham gia CLB giúp sinh viên thực hành kỹ năng, giao lưu với các bạn cùng sở thích, tham gia các dự án thực tế nhỏ và xây dựng portfolio."
+      ]
+    },
+    {
+      "tag": "tkdh_thuc_tap_cong_ty",
+      "patterns": [
+        "thực tập ngành TKĐH?",
+        "thực tập ở agency?"
+      ],
+      "responses": [
+        "Sinh viên Thiết kế Đồ họa thường có kỳ thực tập tại các công ty thiết kế, công ty quảng cáo, bộ phận marketing... để trải nghiệm môi trường làm việc chuyên nghiệp, áp dụng kiến thức đã học và làm quen với quy trình làm việc thực tế. Khoa có thể giới thiệu các đơn vị đối tác hoặc sinh viên cần chủ động tìm kiếm cơ hội thực tập phù hợp, việc này cũng giúp làm phong phú portfolio."
+      ]
+    },
+    {
+      "tag": "tkdh_phan_mem_cong_nghe",
+      "patterns": [
+        "phần mềm ngành đồ họa?",
+        "học Photoshop AI ID?"
+      ],
+      "responses": [
+        "Trọng tâm phần mềm cho ngành Thiết kế Đồ họa tại DAU là bộ công cụ Adobe Creative Cloud, bao gồm Photoshop (chỉnh sửa ảnh), Illustrator (vẽ vector), InDesign (dàn trang). Sinh viên cũng có thể được học thêm Lightroom (chỉnh sửa ảnh), các phần mềm cơ bản về video như After Effects, Premiere Pro, hoặc các công cụ thiết kế UI/UX như Figma, Adobe XD tùy theo định hướng chương trình."
+      ]
+    },
+    {
+      "tag": "tkdh_do_an_mon_hoc",
+      "patterns": [
+        "đồ án môn học TKĐH?",
+        "project thiết kế?"
+      ],
+      "responses": [
+        "Các môn học chuyên ngành Thiết kế Đồ họa thường kết thúc bằng một đồ án/project thực hành. Sinh viên sẽ thực hiện các dự án thiết kế cụ thể như: thiết kế logo và hệ thống nhận diện, thiết kế poster quảng cáo, thiết kế bao bì sản phẩm, thiết kế giao diện website/app, dàn trang tạp chí/sách... Đây là cơ hội để áp dụng lý thuyết và thể hiện khả năng sáng tạo."
+      ]
+    },
+    {
+      "tag": "tkdh_do_an_tot_nghiep_portfolio",
+      "patterns": [
+        "đồ án tốt nghiệp TKĐH?",
+        "portfolio đồ họa?"
+      ],
+      "responses": [
+        "Đồ án tốt nghiệp ngành Thiết kế Đồ họa là một dự án thiết kế toàn diện (ví dụ: xây dựng bộ nhận diện thương hiệu hoàn chỉnh, thiết kế chiến dịch truyền thông đa phương tiện, thiết kế bộ bao bì cho dòng sản phẩm...) thể hiện năng lực sáng tạo, tư duy thiết kế và kỹ năng thực hành của sinh viên. Việc bảo vệ thành công đồ án tốt nghiệp và xây dựng một **portfolio** (hồ sơ năng lực) chuyên nghiệp, ấn tượng là cực kỳ quan trọng để tốt nghiệp và tìm kiếm việc làm trong ngành này."
+      ]
+    },
+    {
+      "tag": "tkdh_nghien_cuu",
+      "patterns": [
+        "nghiên cứu thiết kế đồ họa?",
+        "NCKH ngành TKĐH?"
+      ],
+      "responses": [
+        "Hoạt động nghiên cứu trong ngành Thiết kế Đồ họa thường tập trung vào Lịch sử và Lý luận thiết kế, nghiên cứu xu hướng thẩm mỹ và công nghệ, tâm lý học thị giác, thiết kế bền vững, nghiên cứu người dùng (trong thiết kế UI/UX)... Sinh viên có thể tham gia NCKH cùng giảng viên hoặc thực hiện các nghiên cứu nhỏ trong khuôn khổ khóa luận tốt nghiệp (nếu chọn hướng nghiên cứu)."
+      ]
+    },
+    {
+      "tag": "tkdh_cuoc_thi_thiet_ke",
+      "patterns": [
+        "cuộc thi thiết kế đồ họa?",
+        "cuộc thi sáng tạo?"
+      ],
+      "responses": [
+        "Sinh viên Thiết kế Đồ họa được khuyến khích tham gia các cuộc thi sáng tạo, thiết kế dành cho sinh viên do các tổ chức uy tín, nhãn hàng hoặc các trường đào tạo tổ chức (ví dụ các cuộc thi thiết kế poster, logo, bao bì, thiết kế cho cộng đồng...). Đây là cơ hội tuyệt vời để thử thách bản thân, có thêm sản phẩm cho portfolio và được công nhận."
+      ]
+    },
+    {
+      "tag": "tkdh_diem_khac_biet_dau",
+      "patterns": [
+        "điểm mạnh ngành đồ họa DAU?",
+        "thế mạnh TKĐH tại DAU?"
+      ],
+      "responses": [
+        "Học Thiết kế Đồ họa tại DAU có thể có lợi thế từ môi trường Mỹ thuật Ứng dụng mạnh mẽ của trường, với sự giao thoa và cơ hội hợp tác cùng các ngành Kiến trúc, Nội thất, Quy hoạch. Chương trình có thể tập trung vào tính ứng dụng thực tế của thiết kế đồ họa trong các lĩnh vực liên quan và môi trường sáng tạo chung."
+      ]
+    },
+    {
+      "tag": "tkdh_hoat_dong_khoa",
+      "patterns": [
+        "hoạt động khoa mỹ thuật?",
+        "sự kiện ngành đồ họa?"
+      ],
+      "responses": [
+        "Khoa Mỹ thuật Ứng dụng (hoặc đơn vị phụ trách) thường tổ chức các hoạt động chuyên môn như workshop kỹ năng (vẽ, phần mềm, in ấn...), triển lãm đồ án sinh viên định kỳ, mời các nhà thiết kế, họa sĩ thành danh về chia sẻ kinh nghiệm, hoặc các cuộc thi sáng tác nội bộ. Tham gia các hoạt động này giúp sinh viên cập nhật kiến thức và mở rộng tầm nhìn."
+      ]
+    },
+    {
+      "tag": "tkdh_ky_nang_mem",
+      "patterns": [
+        "kỹ năng mềm ngành đồ họa?",
+        "thuyết trình thiết kế?"
+      ],
+      "responses": [
+        "Ngoài kỹ năng chuyên môn, nhà thiết kế đồ họa cần nhiều kỹ năng mềm: khả năng trình bày và bảo vệ ý tưởng thiết kế một cách thuyết phục, giao tiếp hiệu quả với khách hàng và đồng nghiệp, làm việc nhóm trong các dự án, quản lý thời gian và deadline chặt chẽ, tiếp nhận và đưa ra phản biện mang tính xây dựng."
+      ]
+    },
+    {
+      "tag": "tkdh_dao_duc_nghe_nghiep",
+      "patterns": [
+        "đạo đức ngành thiết kế?",
+        "bản quyền trong đồ họa?"
+      ],
+      "responses": [
+        "Đạo đức nghề nghiệp trong Thiết kế Đồ họa rất quan trọng, đặc biệt là vấn đề bản quyền và sở hữu trí tuệ. Sinh viên được giáo dục về việc tôn trọng sản phẩm sáng tạo của người khác, tránh đạo nhái ý tưởng, trung thực với khách hàng và có trách nhiệm với sản phẩm thiết kế của mình."
+      ]
+    },
+    {
+      "tag": "tkdh_tieng_anh_chuyen_nganh",
+      "patterns": [
+        "tiếng Anh chuyên ngành đồ họa?",
+        "học tiếng Anh cho designer?"
+      ],
+      "responses": [
+        "Tiếng Anh giúp sinh viên Thiết kế Đồ họa tiếp cận nguồn tài liệu phong phú, cập nhật các xu hướng thiết kế quốc tế, hiểu các thuật ngữ chuyên ngành và có thể làm việc với khách hàng, đối tác nước ngoài. Mặc dù có thể không bắt buộc như các ngành kỹ thuật, việc trau dồi tiếng Anh chuyên ngành vẫn là một lợi thế lớn."
+      ]
+    },
+    {
+      "tag": "qhv_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành quy hoạch?",
+        "học quy hoạch ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Quy hoạch vùng và đô thị tại DAU là cung cấp kiến thức nền tảng và chuyên sâu về quy hoạch không gian, thiết kế đô thị, quản lý đô thị và phát triển vùng, nhằm đào tạo các chuyên gia quy hoạch có khả năng phân tích, đề xuất các giải pháp quy hoạch bền vững, đáp ứng yêu cầu phát triển kinh tế - xã hội và bảo vệ môi trường. Chi tiết chuẩn đầu ra có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "qhv_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học quy hoạch?",
+        "ngành quy hoạch học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Quy hoạch vùng và đô thị bao gồm các đồ án quy hoạch (là trọng tâm, từ cấp độ chi tiết đến vùng), các môn lý thuyết về quy hoạch, thiết kế đô thị, lịch sử quy hoạch, kinh tế đô thị, xã hội học đô thị, quản lý đô thị, pháp chế quy hoạch, hệ thống hạ tầng kỹ thuật, ứng dụng GIS và các phần mềm chuyên dụng. Khung chương trình chi tiết có trên website Khoa Quy hoạch hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "qhv_ky_nang_dat_duoc",
+      "patterns": [
+        "học quy hoạch xong có kỹ năng gì?",
+        "kỹ năng ngành quy hoạch?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Quy hoạch vùng và đô thị, sinh viên có khả năng phân tích hiện trạng và các vấn đề đô thị/vùng, lập và thể hiện các đồ án quy hoạch (chi tiết, phân khu, chung, vùng), thiết kế đô thị cơ bản, sử dụng các công cụ GIS và phần mềm hỗ trợ, kỹ năng làm việc nhóm, trình bày và bảo vệ phương án quy hoạch."
+      ]
+    },
+    {
+      "tag": "qhv_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm quy hoạch?",
+        "học quy hoạch ra làm gì?"
+      ],
+      "responses": [
+        "Sinh viên tốt nghiệp có thể làm việc tại các Viện Quy hoạch xây dựng, Sở Xây dựng, Sở Quy hoạch - Kiến trúc, Sở Tài nguyên & Môi trường, Ban Quản lý các khu đô thị/khu công nghiệp, các công ty tư vấn quy hoạch và thiết kế đô thị, các công ty phát triển bất động sản, hoặc tham gia nghiên cứu, giảng dạy."
+      ]
+    },
+    {
+      "tag": "qhv_diem_chuan_xet_tuyen_nang_khieu",
+      "patterns": [
+        "điểm chuẩn ngành quy hoạch?",
+        "xét tuyển ngành quy hoạch?"
+      ],
+      "responses": [
+        "Ngành Quy hoạch vùng và đô thị **thường yêu cầu** xét tuyển tổ hợp có môn Năng khiếu Vẽ (Vẽ Mỹ thuật) tương tự như ngành Kiến trúc. Các tổ hợp phổ biến là V00 (Toán, Lý, Vẽ), V01 (Toán, Văn, Vẽ)... Điểm chuẩn và quy chế thi năng khiếu thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "qhv_phan_mem_cong_nghe",
+      "patterns": [
+        "phần mềm ngành quy hoạch?",
+        "học GIS AutoCAD?"
+      ],
+      "responses": [
+        "Sinh viên ngành Quy hoạch được đào tạo sử dụng các phần mềm Hệ thống Thông tin Địa lý (GIS) như ArcGIS, MapInfo, QGIS để phân tích không gian và quản lý dữ liệu, cùng với các phần mềm hỗ trợ thiết kế và thể hiện như AutoCAD, SketchUp, Photoshop..."
+      ]
+    },
+    {
+      "tag": "tknt_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành nội thất?",
+        "học thiết kế nội thất ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Thiết kế Nội thất tại DAU là trang bị kiến thức về mỹ thuật, nguyên lý thiết kế không gian nội thất, vật liệu, ánh sáng, và kỹ năng thể hiện ý tưởng (vẽ tay, vẽ máy, mô hình), nhằm đào tạo nhà thiết kế nội thất có khả năng sáng tạo không gian sống và làm việc vừa thẩm mỹ, vừa công năng, phù hợp với nhu cầu người sử dụng. Chuẩn đầu ra chi tiết có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "tknt_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học nội thất?",
+        "ngành thiết kế nội thất học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Thiết kế Nội thất bao gồm các đồ án thiết kế nội thất công trình (nhà ở, văn phòng, thương mại...), các môn cơ sở mỹ thuật, lịch sử kiến trúc - nội thất, nguyên lý thiết kế nội thất, nhân trắc học, vật liệu và cấu tạo nội thất, chiếu sáng, kỹ thuật thể hiện, và các phần mềm chuyên dụng. Khung chương trình chi tiết có trên website Khoa Mỹ thuật Ứng dụng/Kiến trúc hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "tknt_ky_nang_dat_duoc",
+      "patterns": [
+        "học nội thất xong có kỹ năng gì?",
+        "kỹ năng ngành nội thất?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Thiết kế Nội thất, sinh viên có khả năng: phân tích nhu cầu và không gian, lên ý tưởng và thiết kế mặt bằng công năng, lựa chọn và phối hợp vật liệu, màu sắc, ánh sáng, thể hiện bản vẽ kỹ thuật và phối cảnh 3D bằng tay và máy (sử dụng AutoCAD, SketchUp, 3ds Max, phần mềm render...), kỹ năng trình bày phương án."
+      ]
+    },
+    {
+      "tag": "tknt_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm nội thất?",
+        "học thiết kế nội thất ra làm gì?"
+      ],
+      "responses": [
+        "Sinh viên tốt nghiệp có thể làm việc tại các công ty chuyên về thiết kế và thi công nội thất, các văn phòng kiến trúc có bộ phận nội thất, các công ty cung cấp vật liệu, trang thiết bị nội thất, hoặc làm việc tự do, chuyên thiết kế nội thất cho nhà ở, văn phòng, cửa hàng, nhà hàng, khách sạn..."
+      ]
+    },
+    {
+      "tag": "tknt_diem_chuan_xet_tuyen_nang_khieu",
+      "patterns": [
+        "điểm chuẩn ngành nội thất?",
+        "xét tuyển ngành nội thất?"
+      ],
+      "responses": [
+        "Ngành Thiết kế Nội thất **bắt buộc** xét tuyển các tổ hợp có môn Năng khiếu Mỹ thuật (thường là Vẽ Mỹ thuật tĩnh vật, Bố cục màu/Trang trí màu), tương tự ngành Thiết kế Đồ họa. Các tổ hợp phổ biến là H00, H01... Điểm chuẩn và quy chế thi năng khiếu thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "tknt_phan_mem_cong_nghe",
+      "patterns": [
+        "phần mềm ngành nội thất?",
+        "học 3ds Max SketchUp?"
+      ],
+      "responses": [
+        "Sinh viên Thiết kế Nội thất được đào tạo sử dụng các phần mềm vẽ kỹ thuật (AutoCAD, có thể cả Revit), dựng hình 3D (SketchUp, 3ds Max), diễn họa và render (V-Ray, Corona Renderer, Lumion, Enscape...), và các phần mềm hỗ trợ chỉnh sửa ảnh (Photoshop)."
+      ]
+    },
+    {
+      "tag": "ktxd_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành xây dựng?",
+        "học kỹ thuật xây dựng ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Kỹ thuật Xây dựng tại DAU là cung cấp kiến thức cơ bản và chuyên sâu về lĩnh vực xây dựng dân dụng và công nghiệp, bao gồm thiết kế kết cấu, tổ chức và quản lý thi công, vật liệu xây dựng, địa kỹ thuật..., nhằm đào tạo Kỹ sư Xây dựng có khả năng thiết kế, giám sát, tổ chức thi công các công trình xây dựng. Chuẩn đầu ra chi tiết có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "ktxd_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học xây dựng?",
+        "ngành kỹ thuật xây dựng học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Kỹ thuật Xây dựng bao gồm các môn cơ sở kỹ thuật (Sức bền vật liệu, Cơ kết cấu, Cơ học đất...), các môn chuyên ngành về Vật liệu xây dựng, Kết cấu công trình (Bê tông cốt thép, Kết cấu thép), Nền móng, Kỹ thuật thi công, Tổ chức thi công, An toàn lao động, Kinh tế xây dựng, và các đồ án môn học, đồ án tốt nghiệp. Khung chương trình chi tiết có trên website Khoa Xây dựng hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "ktxd_ky_nang_dat_duoc",
+      "patterns": [
+        "học xây dựng xong có kỹ năng gì?",
+        "kỹ năng ngành xây dựng?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Kỹ thuật Xây dựng, sinh viên có khả năng: tính toán và thiết kế các cấu kiện và hệ kết cấu công trình cơ bản, đọc và triển khai bản vẽ kỹ thuật thi công, lập biện pháp thi công, giám sát thi công tại công trường, sử dụng các phần mềm hỗ trợ tính toán kết cấu (SAP2000, ETABS...) và vẽ kỹ thuật (AutoCAD...)."
+      ]
+    },
+    {
+      "tag": "ktxd_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm xây dựng?",
+        "học kỹ thuật xây dựng ra làm gì?"
+      ],
+      "responses": [
+        "Kỹ sư Xây dựng tốt nghiệp DAU có thể làm việc tại các công ty tư vấn thiết kế xây dựng, các công ty xây lắp, các Ban quản lý dự án đầu tư xây dựng, các cơ quan quản lý nhà nước về xây dựng, các viện nghiên cứu hoặc làm công tác giám sát thi công, chỉ huy công trường."
+      ]
+    },
+    {
+      "tag": "ktxd_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngành xây dựng?",
+        "xét tuyển ngành kỹ thuật xây dựng?"
+      ],
+      "responses": [
+        "Ngành Kỹ thuật Xây dựng thường xét tuyển các tổ hợp khối A như A00 (Toán, Lý, Hóa), A01 (Toán, Lý, Anh). Điểm chuẩn thay đổi hàng năm và theo phương thức xét tuyển. Bạn cần theo dõi thông báo tuyển sinh chính thức trên trang https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "ktxd_phan_mem_cong_nghe",
+      "patterns": [
+        "phần mềm ngành xây dựng?",
+        "học SAP2000 Etabs?"
+      ],
+      "responses": [
+        "Sinh viên Kỹ thuật Xây dựng được học và sử dụng các phần mềm phổ biến như AutoCAD (vẽ kỹ thuật), SAP2000, ETABS, SAFE (phân tích và thiết kế kết cấu), Microsoft Project (quản lý tiến độ). Có thể được tiếp cận với Revit Structure và quy trình BIM (Building Information Modeling)."
+      ]
+    },
+    {
+      "tag": "qlxd_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành quản lý xây dựng?",
+        "học QLXD ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Quản lý xây dựng tại DAU là trang bị kiến thức tổng hợp về kỹ thuật xây dựng và quản lý kinh tế, tập trung vào việc lập kế hoạch, tổ chức, điều phối và kiểm soát các nguồn lực (nhân lực, vật tư, tài chính, thời gian) để thực hiện dự án xây dựng đạt mục tiêu về tiến độ, chi phí và chất lượng. Chuẩn đầu ra chi tiết có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "qlxd_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học QLXD?",
+        "ngành quản lý xây dựng học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Quản lý xây dựng kết hợp kiến thức kỹ thuật xây dựng cơ bản với các môn chuyên sâu về Quản lý dự án xây dựng, Kinh tế xây dựng, Định giá xây dựng, Đấu thầu và Hợp đồng xây dựng, Quản lý tiến độ, Quản lý chất lượng, Quản lý chi phí, An toàn lao động, Luật xây dựng, và các phần mềm quản lý dự án. Khung chương trình chi tiết có trên website Khoa Xây dựng/Kinh tế hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "qlxd_ky_nang_dat_duoc",
+      "patterns": [
+        "học QLXD xong có kỹ năng gì?",
+        "kỹ năng ngành quản lý xây dựng?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Quản lý xây dựng, sinh viên có khả năng: lập và quản lý kế hoạch, tiến độ dự án; lập dự toán, quản lý chi phí; tổ chức đấu thầu, quản lý hợp đồng; quản lý chất lượng và an toàn lao động trong xây dựng; sử dụng các phần mềm quản lý dự án (MS Project...) và các công cụ văn phòng hiệu quả."
+      ]
+    },
+    {
+      "tag": "qlxd_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm QLXD?",
+        "học quản lý xây dựng ra làm gì?"
+      ],
+      "responses": [
+        "Sinh viên tốt nghiệp có thể làm việc tại các Ban quản lý dự án của chủ đầu tư (nhà nước, tư nhân), các công ty xây dựng (bộ phận kế hoạch, dự án, đấu thầu, dự toán), các công ty tư vấn quản lý dự án, tư vấn giám sát, các tổ chức tài chính, ngân hàng (thẩm định dự án), hoặc các cơ quan quản lý nhà nước liên quan."
+      ]
+    },
+    {
+      "tag": "qlxd_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngành QLXD?",
+        "xét tuyển quản lý xây dựng?"
+      ],
+      "responses": [
+        "Ngành Quản lý xây dựng thường xét tuyển các tổ hợp khối A (A00, A01) và có thể cả khối D (như D01 - Toán, Văn, Anh; D07 - Toán, Hóa, Anh). Điểm chuẩn thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "ktht_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành hạ tầng?",
+        "học kỹ thuật hạ tầng ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Kỹ thuật cơ sở hạ tầng tại DAU là cung cấp kiến thức về quy hoạch, thiết kế, thi công và quản lý các hệ thống hạ tầng kỹ thuật thiết yếu của đô thị và khu vực, bao gồm giao thông (đường bộ), cấp nước, thoát nước, xử lý nước thải và chất thải rắn, san nền..., nhằm đào tạo kỹ sư có khả năng giải quyết các vấn đề hạ tầng kỹ thuật đô thị. Chuẩn đầu ra chi tiết có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "ktht_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học hạ tầng?",
+        "ngành kỹ thuật hạ tầng học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Kỹ thuật cơ sở hạ tầng bao gồm các môn cơ sở kỹ thuật, các môn chuyên ngành về Thiết kế đường ô tô, Kỹ thuật cấp nước, Kỹ thuật thoát nước, Xử lý nước thải, Quản lý chất thải rắn, San nền và quy hoạch chiều cao, Thủy lực công trình, ứng dụng GIS, AutoCAD và các phần mềm chuyên dụng khác (như Civil 3D, Epanet...). Khung chương trình chi tiết có trên website Khoa Xây dựng/Hạ tầng hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "ktht_ky_nang_dat_duoc",
+      "patterns": [
+        "học hạ tầng xong có kỹ năng gì?",
+        "kỹ năng ngành hạ tầng?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Kỹ thuật cơ sở hạ tầng, sinh viên có khả năng: thiết kế các hạng mục hạ tầng kỹ thuật cơ bản (đường, san nền, cấp thoát nước), lập dự án đầu tư xây dựng hạ tầng, tổ chức và giám sát thi công, sử dụng các phần mềm chuyên dụng như AutoCAD, Civil 3D, các phần mềm tính toán thủy lực, GIS..."
+      ]
+    },
+    {
+      "tag": "ktht_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm hạ tầng?",
+        "học kỹ thuật hạ tầng ra làm gì?"
+      ],
+      "responses": [
+        "Kỹ sư Cơ sở hạ tầng có thể làm việc tại các công ty tư vấn thiết kế hạ tầng, các công ty thi công hạ tầng kỹ thuật, các Ban quản lý dự án đầu tư xây dựng, các Sở Giao thông Vận tải, Sở Xây dựng, các công ty quản lý và khai thác hạ tầng (cấp nước, thoát nước, môi trường đô thị)..."
+      ]
+    },
+    {
+      "tag": "ktht_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngành hạ tầng?",
+        "xét tuyển kỹ thuật hạ tầng?"
+      ],
+      "responses": [
+        "Ngành Kỹ thuật cơ sở hạ tầng thường xét tuyển các tổ hợp khối A như A00 (Toán, Lý, Hóa), A01 (Toán, Lý, Anh). Điểm chuẩn thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "ktddt_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành điện điện tử?",
+        "học KTDDT ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Kỹ thuật Điện - Điện tử tại DAU là trang bị kiến thức cơ bản và chuyên môn về lĩnh vực điện, điện tử, và có thể cả tự động hóa, bao gồm lý thuyết mạch, kỹ thuật điện tử, kỹ thuật số, hệ thống cung cấp điện, điều khiển tự động..., nhằm đào tạo Kỹ sư Điện - Điện tử có khả năng thiết kế, vận hành, bảo trì các hệ thống điện, điện tử và tự động hóa công nghiệp hoặc dân dụng. Chuẩn đầu ra chi tiết có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "ktddt_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học điện điện tử?",
+        "ngành KTDDT học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Kỹ thuật Điện - Điện tử bao gồm các môn cơ sở ngành (Lý thuyết mạch, Điện tử cơ bản...), các môn chuyên ngành như Kỹ thuật số, Vi xử lý - Vi điều khiển, Lập trình PLC, Máy điện, Cung cấp điện, Khí cụ điện, Đo lường điện, Lý thuyết điều khiển tự động, và các học phần thực hành, thí nghiệm tương ứng. Khung chương trình chi tiết có trên website Khoa Điện - Điện tử (hoặc đơn vị phụ trách) / Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "ktddt_ky_nang_dat_duoc",
+      "patterns": [
+        "học điện điện tử xong có kỹ năng gì?",
+        "kỹ năng ngành KTDDT?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Kỹ thuật Điện - Điện tử, sinh viên có khả năng: thiết kế, lắp đặt, vận hành và bảo trì các hệ thống điện dân dụng và công nghiệp cơ bản, các mạch điện tử ứng dụng, hệ thống điều khiển tự động đơn giản sử dụng PLC/vi điều khiển, sử dụng các thiết bị đo lường điện, đọc và vẽ các sơ đồ mạch điện."
+      ]
+    },
+    {
+      "tag": "ktddt_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm điện điện tử?",
+        "học KTDDT ra làm gì?"
+      ],
+      "responses": [
+        "Kỹ sư Điện - Điện tử có thể làm việc tại các công ty Điện lực, các nhà máy sản xuất công nghiệp (vận hành, bảo trì hệ thống điện, tự động hóa), các công ty tư vấn thiết kế điện, các công ty thi công cơ điện (M&E) cho công trình, các công ty kinh doanh thiết bị điện - điện tử, hoặc trong lĩnh vực nghiên cứu, giảng dạy."
+      ]
+    },
+    {
+      "tag": "ktddt_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngành điện điện tử?",
+        "xét tuyển KTDDT?"
+      ],
+      "responses": [
+        "Ngành Kỹ thuật Điện - Điện tử thường xét tuyển các tổ hợp khối A như A00 (Toán, Lý, Hóa), A01 (Toán, Lý, Anh). Điểm chuẩn thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "ktddt_phan_mem_cong_nghe",
+      "patterns": [
+        "phần mềm ngành điện điện tử?",
+        "học AutoCAD Electrical/Matlab?"
+      ],
+      "responses": [
+        "Sinh viên ngành Kỹ thuật Điện - Điện tử được học sử dụng các phần mềm mô phỏng mạch (Proteus, Orcad...), tính toán kỹ thuật (MATLAB/Simulink), vẽ kỹ thuật điện (AutoCAD Electrical), và các phần mềm lập trình cho PLC, vi điều khiển (tùy theo hãng và dòng được học)."
+      ]
+    },
+    {
+      "tag": "qtkd_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành QTKD?",
+        "học quản trị kinh doanh ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Quản trị kinh doanh tại DAU là cung cấp kiến thức nền tảng và tổng quan về quản trị hoạt động của một doanh nghiệp, bao gồm các chức năng chính như Marketing, Nhân sự, Tài chính, Sản xuất/Điều hành, giúp sinh viên có tư duy hệ thống, kỹ năng phân tích, ra quyết định và giải quyết vấn đề trong môi trường kinh doanh. Chuẩn đầu ra chi tiết có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "qtkd_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học QTKD?",
+        "ngành quản trị kinh doanh học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Quản trị kinh doanh bao gồm các môn cơ sở khối ngành kinh tế (Kinh tế Vi mô, Vĩ mô, Nguyên lý Thống kê, Luật Kinh tế...), các môn cơ sở ngành và chuyên ngành như Quản trị học, Marketing căn bản, Quản trị Nhân lực, Tài chính Doanh nghiệp, Quản trị Chiến lược, Quản trị Sản xuất và Điều hành, Hành vi Tổ chức... Khung chương trình chi tiết có trên website Khoa Kinh tế hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "qtkd_chuyen_nganh_hep",
+      "patterns": [
+        "QTKD có chuyên ngành nào?",
+        "hướng chuyên sâu kinh doanh?"
+      ],
+      "responses": [
+        "Ngành Quản trị kinh doanh tại DAU có thể có các chuyên ngành/hướng chuyên sâu để sinh viên lựa chọn vào năm cuối như: Quản trị doanh nghiệp tổng hợp, **Marketing** (đôi khi tách thành ngành riêng), Quản trị Nhân lực, Quản trị Du lịch & Lữ hành... Bạn cần xem thông tin tuyển sinh và chương trình đào tạo chính thức để biết các chuyên ngành cụ thể đang được đào tạo."
+      ]
+    },
+    {
+      "tag": "qtkd_ky_nang_dat_duoc",
+      "patterns": [
+        "học QTKD xong có kỹ năng gì?",
+        "kỹ năng ngành kinh doanh?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Quản trị kinh doanh, sinh viên có khả năng: phân tích môi trường kinh doanh, lập kế hoạch kinh doanh/marketing/nhân sự..., hỗ trợ ra quyết định quản trị, có kiến thức nền tảng về quản lý các chức năng trong doanh nghiệp, cùng các kỹ năng mềm quan trọng như giao tiếp, thuyết trình, đàm phán, làm việc nhóm, giải quyết vấn đề."
+      ]
+    },
+    {
+      "tag": "qtkd_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm QTKD?",
+        "học quản trị kinh doanh ra làm gì?"
+      ],
+      "responses": [
+        "Cử nhân Quản trị kinh doanh có thể làm việc ở nhiều bộ phận khác nhau trong các loại hình doanh nghiệp và tổ chức: chuyên viên kinh doanh, marketing, nhân sự, hành chính, quản lý dự án, trợ lý giám đốc, chuyên viên phân tích... Sau khi tích lũy kinh nghiệm, có thể phát triển lên các vị trí quản lý cấp trung và cấp cao."
+      ]
+    },
+    {
+      "tag": "qtkd_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngành QTKD?",
+        "xét tuyển quản trị kinh doanh?"
+      ],
+      "responses": [
+        "Ngành Quản trị kinh doanh thường xét tuyển nhiều tổ hợp khối A (A00, A01), khối D (D01, D07...) và có thể cả khối C (C00 - Văn, Sử, Địa). Điểm chuẩn thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "kinhte_phan_mem_cong_nghe",
+      "patterns": [
+        "phần mềm ngành kinh tế?",
+        "học Excel/SPSS?"
+      ],
+      "responses": [
+        "Sinh viên khối ngành kinh tế (QTKD, Marketing, Kế toán, TCNH) được học sử dụng thành thạo các công cụ văn phòng (Excel, Powerpoint), các phần mềm phân tích thống kê (như SPSS), các công cụ trực quan hóa dữ liệu (Power BI). Tùy chuyên ngành, có thể học thêm phần mềm kế toán (MISA, SAP...), hệ thống CRM, các công cụ Digital Marketing, hoặc các phần mềm chuyên dụng trong lĩnh vực tài chính - ngân hàng."
+      ]
+    },
+    {
+      "tag": "mkt_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành marketing?",
+        "học marketing ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành/chuyên ngành Marketing tại DAU là cung cấp kiến thức và kỹ năng chuyên sâu về nghiên cứu thị trường, xây dựng chiến lược marketing, quản trị thương hiệu, tổ chức các hoạt động truyền thông, quảng cáo, xúc tiến bán hàng, và đo lường hiệu quả marketing, nhằm đào tạo các chuyên gia marketing có khả năng đáp ứng nhu cầu của doanh nghiệp trong môi trường cạnh tranh. (Lưu ý: Cần kiểm tra xem đây là ngành riêng hay chuyên ngành của QTKD)."
+      ]
+    },
+    {
+      "tag": "mkt_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học marketing?",
+        "ngành marketing học gì?"
+      ],
+      "responses": [
+        "Chương trình Marketing (nếu là ngành riêng hoặc chuyên ngành sâu) sẽ bao gồm các môn cốt lõi như Marketing căn bản, Nghiên cứu Marketing, Hành vi người tiêu dùng, Quản trị Sản phẩm, Quản trị Giá, Quản trị Kênh phân phối, Quản trị Thương hiệu, Truyền thông Marketing tích hợp (IMC), Marketing dịch vụ, Marketing quốc tế, và đặc biệt là Digital Marketing. Khung chương trình chi tiết cần tham khảo từ Khoa/Trang tuyển sinh."
+      ]
+    },
+    {
+      "tag": "mkt_ky_nang_dat_duoc",
+      "patterns": [
+        "học marketing xong có kỹ năng gì?",
+        "kỹ năng ngành marketing?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành/chuyên ngành Marketing, sinh viên có khả năng: nghiên cứu và phân tích thị trường, khách hàng, đối thủ cạnh tranh; lập kế hoạch marketing tổng thể và chi tiết; phát triển ý tưởng sáng tạo cho các chiến dịch truyền thông, quảng cáo; viết nội dung marketing; sử dụng các công cụ Digital Marketing cơ bản (SEO, SEM, Social Media Marketing, Email Marketing...); đo lường và đánh giá hiệu quả chiến dịch."
+      ]
+    },
+    {
+      "tag": "mkt_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm marketing?",
+        "học marketing ra làm gì?"
+      ],
+      "responses": [
+        "Sinh viên tốt nghiệp Marketing có thể làm việc tại phòng Marketing của các doanh nghiệp (phía brand), các công ty dịch vụ Marketing, quảng cáo, truyền thông (Agency), các công ty nghiên cứu thị trường... ở các vị trí như: Chuyên viên Marketing tổng hợp, Chuyên viên Digital Marketing, Chuyên viên Content Marketing, Chuyên viên Social Media, Chuyên viên SEO/SEM, Chuyên viên Nghiên cứu thị trường, Chuyên viên PR..."
+      ]
+    },
+    {
+      "tag": "mkt_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngành marketing?",
+        "xét tuyển marketing?"
+      ],
+      "responses": [
+        "Ngành/chuyên ngành Marketing thường xét tuyển các tổ hợp tương tự Quản trị kinh doanh: khối A (A00, A01), khối D (D01, D07...) và có thể cả khối C (C00). Điểm chuẩn thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "kt_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành kế toán?",
+        "học kế toán ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Kế toán tại DAU là cung cấp kiến thức nền tảng và chuyên sâu về nguyên lý kế toán, các chuẩn mực kế toán Việt Nam (VAS) và quốc tế (IFRS cơ bản), kế toán tài chính, kế toán quản trị, kế toán thuế, kiểm toán, nhằm đào tạo cử nhân Kế toán có khả năng thực hiện các nghiệp vụ kế toán, lập báo cáo tài chính, tư vấn thuế và hỗ trợ kiểm toán tại các doanh nghiệp và tổ chức. Chuẩn đầu ra chi tiết có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "kt_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học kế toán?",
+        "ngành kế toán học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Kế toán bao gồm các môn cơ sở, các môn cốt lõi như Nguyên lý Kế toán, Kế toán Tài chính (các phần hành), Kế toán Quản trị, Thuế, Kiểm toán căn bản, Phân tích Báo cáo Tài chính, Luật Kế toán - Kiểm toán, Hệ thống thông tin Kế toán, và thực hành trên các phần mềm kế toán phổ biến (như MISA). Khung chương trình chi tiết có trên website Khoa Kinh tế/Kế toán hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "kt_ky_nang_dat_duoc",
+      "patterns": [
+        "học kế toán xong có kỹ năng gì?",
+        "kỹ năng ngành kế toán?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Kế toán, sinh viên có khả năng: thực hiện các nghiệp vụ kế toán phát sinh, định khoản, ghi sổ kế toán; lập và trình bày các Báo cáo Tài chính cơ bản; kê khai các loại thuế phổ biến; sử dụng thành thạo phần mềm kế toán và Excel trong công tác kế toán; có khả năng phân tích số liệu tài chính cơ bản, và đặc biệt là các phẩm chất cẩn thận, trung thực, tuân thủ pháp luật."
+      ]
+    },
+    {
+      "tag": "kt_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm kế toán?",
+        "học kế toán ra làm gì?"
+      ],
+      "responses": [
+        "Cử nhân Kế toán có thể làm việc tại bộ phận kế toán của mọi loại hình doanh nghiệp, tổ chức nhà nước, các công ty dịch vụ kế toán, các công ty kiểm toán (như Big4 hoặc các công ty trong nước), ngân hàng, hoặc làm công tác giảng dạy, nghiên cứu. Các vị trí phổ biến: Kế toán viên (thanh toán, công nợ, kho, thuế...), Kế toán tổng hợp, Chuyên viên phân tích tài chính, Trợ lý kiểm toán viên, Kiểm toán viên (sau khi có chứng chỉ)..."
+      ]
+    },
+    {
+      "tag": "kt_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngành kế toán?",
+        "xét tuyển kế toán?"
+      ],
+      "responses": [
+        "Ngành Kế toán thường xét tuyển các tổ hợp khối A (A00, A01) và khối D (D01, D07...). Điểm chuẩn thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "kt_chung_chi",
+      "patterns": [
+        "chứng chỉ kế toán/kiểm toán?",
+        "học thi CPA/ACCA?"
+      ],
+      "responses": [
+        "Chương trình Kế toán cung cấp kiến thức nền tảng để sinh viên có thể học và thi lấy các chứng chỉ nghề nghiệp quan trọng trong ngành như Chứng chỉ Kế toán viên, Chứng chỉ Kiểm toán viên (CPA Việt Nam), hoặc các chứng chỉ quốc tế như ACCA, ICAEW, CMA, CFA (tùy định hướng). Việc có chứng chỉ là lợi thế rất lớn để thăng tiến."
+      ]
+    },
+    {
+      "tag": "tcnh_muc_tieu_dao_tao",
+      "patterns": [
+        "mục tiêu ngành tài chính ngân hàng?",
+        "học TCNH ra làm gì?"
+      ],
+      "responses": [
+        "Mục tiêu đào tạo ngành Tài chính - Ngân hàng tại DAU là cung cấp kiến thức nền tảng và chuyên sâu về thị trường tài chính, các nghiệp vụ ngân hàng thương mại, quản trị tài chính doanh nghiệp, phân tích và đầu tư tài chính, nhằm đào tạo cử nhân có khả năng làm việc trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm, và quản lý tài chính tại các doanh nghiệp. Chuẩn đầu ra chi tiết có trong chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "tcnh_chuong_trinh_hoc",
+      "patterns": [
+        "chương trình học TCNH?",
+        "ngành tài chính ngân hàng học gì?"
+      ],
+      "responses": [
+        "Chương trình ngành Tài chính - Ngân hàng bao gồm các môn cơ sở, các môn cốt lõi như Tài chính tiền tệ, Thị trường Chứng khoán, Tài chính Doanh nghiệp, Ngân hàng Thương mại, Thẩm định tín dụng, Quản trị Rủi ro tài chính, Phân tích Đầu tư Tài chính, Tài chính quốc tế... Khung chương trình chi tiết có trên website Khoa Kinh tế/Tài chính hoặc Phòng Đào tạo."
+      ]
+    },
+    {
+      "tag": "tcnh_ky_nang_dat_duoc",
+      "patterns": [
+        "học TCNH xong có kỹ năng gì?",
+        "kỹ năng ngành tài chính ngân hàng?"
+      ],
+      "responses": [
+        "Tốt nghiệp ngành Tài chính - Ngân hàng, sinh viên có khả năng: phân tích báo cáo tài chính, thẩm định dự án/tín dụng cơ bản, phân tích và lựa chọn công cụ đầu tư, hiểu biết về các sản phẩm, dịch vụ ngân hàng, kỹ năng giao tiếp và tư vấn khách hàng, sử dụng Excel và các phần mềm hỗ trợ phân tích tài chính."
+      ]
+    },
+    {
+      "tag": "tcnh_co_hoi_viec_lam",
+      "patterns": [
+        "cơ hội việc làm TCNH?",
+        "học tài chính ngân hàng ra làm gì?"
+      ],
+      "responses": [
+        "Cử nhân Tài chính - Ngân hàng có thể làm việc tại các ngân hàng thương mại (giao dịch viên, chuyên viên tín dụng, chuyên viên thanh toán quốc tế...), công ty chứng khoán (môi giới, phân tích đầu tư...), công ty bảo hiểm, công ty quản lý quỹ, bộ phận tài chính của các doanh nghiệp, hoặc các cơ quan quản lý nhà nước về tài chính."
+      ]
+    },
+    {
+      "tag": "tcnh_diem_chuan_xet_tuyen",
+      "patterns": [
+        "điểm chuẩn ngành TCNH?",
+        "xét tuyển tài chính ngân hàng?"
+      ],
+      "responses": [
+        "Ngành Tài chính - Ngân hàng thường xét tuyển các tổ hợp khối A (A00, A01) và khối D (D01, D07...). Điểm chuẩn thay đổi hàng năm, cần xem chi tiết trên trang tuyển sinh https://tuyensinh.dau.edu.vn/."
+      ]
+    },
+    {
+      "tag": "tcnh_chung_chi",
+      "patterns": [
+        "chứng chỉ tài chính/chứng khoán?",
+        "học thi CFA?"
+      ],
+      "responses": [
+        "Chương trình Tài chính - Ngân hàng cung cấp kiến thức nền tảng để sinh viên có thể theo đuổi các chứng chỉ nghề nghiệp uy tín như Chứng chỉ hành nghề Chứng khoán (do UBCKNN cấp), CFA (Chartered Financial Analyst), FRM (Financial Risk Manager)... Việc sở hữu các chứng chỉ này giúp nâng cao năng lực cạnh tranh và cơ hội thăng tiến trong ngành."
+      ]
+    },
+    {
+      "tag": "thu_tuc_thoi_hoc",
+      "patterns": [
+        "thủ tục thôi học?",
+        "xin nghỉ học hẳn?"
+      ],
+      "responses": [
+        "Trường hợp sinh viên muốn thôi học vì lý do cá nhân, cần làm đơn xin thôi học theo mẫu và nộp tại Phòng Công tác Sinh viên hoặc Phòng Đào tạo (tuỳ quy định). Sinh viên cần hoàn thành các nghĩa vụ còn lại (nếu có) với nhà trường (như học phí, tài sản mượn...) trước khi được giải quyết. Quy trình cụ thể và các giấy tờ cần thiết được hướng dẫn tại các phòng ban này."
+      ]
+    },
+    {
+      "tag": "bau_cu_sinh_vien",
+      "patterns": [
+        "bầu cử ban chấp hành Đoàn/Hội?",
+        "tham gia ứng cử?"
+      ],
+      "responses": [
+        "Các cuộc bầu cử Ban chấp hành Đoàn Thanh niên - Hội Sinh viên các cấp (chi đoàn/chi hội, liên chi, cấp trường) thường được tổ chức theo nhiệm kỳ. Thông tin về thời gian, thể lệ, tiêu chuẩn ứng cử viên và quy trình bầu cử được các tổ chức này thông báo đến đoàn viên, hội viên khi đến kỳ đại hội hoặc hội nghị."
+      ]
+    },
+    {
+      "tag": "quy_dinh_khach_tham_quan",
+      "patterns": [
+        "quy định cho khách tham quan?",
+        "người ngoài vào trường?"
+      ],
+      "responses": [
+        "Khách đến liên hệ công tác hoặc tham quan trường thường cần đăng ký tại cổng bảo vệ và tuân thủ các quy định chung của nhà trường về giờ giấc, khu vực được phép vào và giữ gìn trật tự, vệ sinh. Một số khu vực đặc thù (như phòng thí nghiệm, khu nội trú nếu có) có thể có quy định hạn chế khách ra vào."
+      ]
+    },
+    {
+      "tag": "phong_chay_chua_chay",
+      "patterns": [
+        "quy định phòng cháy?",
+        "an toàn PCCC?"
+      ],
+      "responses": [
+        "Nhà trường luôn quan tâm đến công tác phòng cháy chữa cháy (PCCC) và an toàn cho sinh viên, cán bộ. Các quy định về PCCC, hướng dẫn sử dụng bình cứu hỏa và sơ đồ lối thoát hiểm thường được niêm yết tại các tòa nhà. Sinh viên cần tìm hiểu và tuân thủ các quy định này, tham gia các buổi diễn tập PCCC (nếu có tổ chức) để biết cách xử lý khi có sự cố."
+      ]
+    },
+    {
+      "tag": "khong_hieu",
+      "patterns": [
+        "không hiểu",
+        "?"
+      ],
+      "responses": [
+        "Xin lỗi, tôi chưa hiểu rõ ý của bạn. Bạn có thể hỏi cụ thể hơn về tuyển sinh, ngành học, học phí, địa chỉ, quy định, thủ tục... của Trường Đại học Kiến trúc Đà Nẵng được không?",
+        "Tôi chưa được lập trình để trả lời câu hỏi này. Bạn có thể thử một câu hỏi khác liên quan đến DAU không?",
+        "Hmm, tôi không chắc về điều đó. Bạn vui lòng hỏi lại rõ hơn nhé. Tôi có thể giúp về các thông tin như: ngành học, học phí, địa chỉ, cách xét tuyển,...",
+        "Bạn có thể diễn đạt câu hỏi khác được không? Tôi có thể trả lời về thông tin chung của trường."
+      ]
+    }
+  ]
+}
